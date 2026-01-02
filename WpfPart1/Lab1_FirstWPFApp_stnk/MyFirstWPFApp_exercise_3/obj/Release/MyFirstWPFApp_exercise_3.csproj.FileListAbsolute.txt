@@ -1,0 +1,16 @@
+D:\BSU\SVPP\project\WPF\WpfPart1\Lab1_FirstWPFApp_stnk\MyFirstWPFApp_exercise_3\bin\Release\MyFirstWPFApp_exercise_3.exe.config
+D:\BSU\SVPP\project\WPF\WpfPart1\Lab1_FirstWPFApp_stnk\MyFirstWPFApp_exercise_3\bin\Release\MyFirstWPFApp_exercise_3.exe
+D:\BSU\SVPP\project\WPF\WpfPart1\Lab1_FirstWPFApp_stnk\MyFirstWPFApp_exercise_3\bin\Release\MyFirstWPFApp_exercise_3.pdb
+D:\BSU\SVPP\project\WPF\WpfPart1\Lab1_FirstWPFApp_stnk\MyFirstWPFApp_exercise_3\obj\Release\MyFirstWPFApp_exercise_3.csproj.AssemblyReference.cache
+D:\BSU\SVPP\project\WPF\WpfPart1\Lab1_FirstWPFApp_stnk\MyFirstWPFApp_exercise_3\obj\Release\MainWindow.g.cs
+D:\BSU\SVPP\project\WPF\WpfPart1\Lab1_FirstWPFApp_stnk\MyFirstWPFApp_exercise_3\obj\Release\App.g.cs
+D:\BSU\SVPP\project\WPF\WpfPart1\Lab1_FirstWPFApp_stnk\MyFirstWPFApp_exercise_3\obj\Release\MyFirstWPFApp_exercise_3_MarkupCompile.cache
+D:\BSU\SVPP\project\WPF\WpfPart1\Lab1_FirstWPFApp_stnk\MyFirstWPFApp_exercise_3\obj\Release\MyFirstWPFApp_exercise_3_MarkupCompile.lref
+D:\BSU\SVPP\project\WPF\WpfPart1\Lab1_FirstWPFApp_stnk\MyFirstWPFApp_exercise_3\obj\Release\MainWindow.baml
+D:\BSU\SVPP\project\WPF\WpfPart1\Lab1_FirstWPFApp_stnk\MyFirstWPFApp_exercise_3\obj\Release\MyFirstWPFApp_exercise_3.g.resources
+D:\BSU\SVPP\project\WPF\WpfPart1\Lab1_FirstWPFApp_stnk\MyFirstWPFApp_exercise_3\obj\Release\MyFirstWPFApp_exercise_3.Properties.Resources.resources
+D:\BSU\SVPP\project\WPF\WpfPart1\Lab1_FirstWPFApp_stnk\MyFirstWPFApp_exercise_3\obj\Release\MyFirstWPFApp_exercise_3.csproj.GenerateResource.cache
+D:\BSU\SVPP\project\WPF\WpfPart1\Lab1_FirstWPFApp_stnk\MyFirstWPFApp_exercise_3\obj\Release\MyFirstWPFApp_exercise_3.csproj.CoreCompileInputs.cache
+D:\BSU\SVPP\project\WPF\WpfPart1\Lab1_FirstWPFApp_stnk\MyFirstWPFApp_exercise_3\obj\Release\MyFirstWPFApp_exercise_3.exe
+D:\BSU\SVPP\project\WPF\WpfPart1\Lab1_FirstWPFApp_stnk\MyFirstWPFApp_exercise_3\obj\Release\MyFirstWPFApp_exercise_3.pdb
+D:\BSU\SVPP\project\WPF\WpfPart1\Lab1_FirstWPFApp_stnk\MyFirstWPFApp_exercise_3\obj\Release\MyFirstWPFApp_exercise_3.exe.config

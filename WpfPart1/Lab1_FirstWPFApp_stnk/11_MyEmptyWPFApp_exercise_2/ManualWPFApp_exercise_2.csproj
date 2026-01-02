@@ -1,0 +1,12 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <!-- Указываем, что это не консольное, а WPF-приложение -->
+  <PropertyGroup>
+<OutputType>WinExe</OutputType> <!-- Запускаемый файл .exe -->
+<TargetFramework>net8.0-windows</TargetFramework> <!-- Укажите вашу версию .NET -->
+<Nullable>enable</Nullable>
+<UseWPF>true</UseWPF> <!-- Самая важная строка: подключает WPF -->
+  </PropertyGroup>
+  <ItemGroup>
+    <Page Include="App.xaml" />
+  </ItemGroup>
+</Project>
