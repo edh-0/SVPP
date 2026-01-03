@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.14.36518.9 d17.14
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StudentCard", "StudentCard\StudentCard.csproj", "{2A4860BB-56C7-4C9A-A27E-38C9C4D8F6DC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HybridApplicationXAMLandCSharp", "HybridApplicationXAMLandCSharp\HybridApplicationXAMLandCSharp.csproj", "{9FA22459-1920-4EFF-9B48-B494170AD144}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2A4860BB-56C7-4C9A-A27E-38C9C4D8F6DC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2A4860BB-56C7-4C9A-A27E-38C9C4D8F6DC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2A4860BB-56C7-4C9A-A27E-38C9C4D8F6DC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2A4860BB-56C7-4C9A-A27E-38C9C4D8F6DC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9FA22459-1920-4EFF-9B48-B494170AD144}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9FA22459-1920-4EFF-9B48-B494170AD144}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9FA22459-1920-4EFF-9B48-B494170AD144}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9FA22459-1920-4EFF-9B48-B494170AD144}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {07A9670D-8E9A-4346-9E89-EC7E2B4C8A5E}
+	EndGlobalSection
+EndGlobal

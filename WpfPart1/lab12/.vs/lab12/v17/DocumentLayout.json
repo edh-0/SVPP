@@ -1,0 +1,36 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\BSU\\SVPP\\project\\WPF\\WpfPart1\\lab12\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{2A4860BB-56C7-4C9A-A27E-38C9C4D8F6DC}|StudentCard\\StudentCard.csproj|d:\\bsu\\svpp\\project\\wpf\\wpfpart1\\lab12\\studentcard\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{2A4860BB-56C7-4C9A-A27E-38C9C4D8F6DC}|StudentCard\\StudentCard.csproj|solutionrelative:studentcard\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 274,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "MainWindow.xaml",
+              "DocumentMoniker": "D:\\BSU\\SVPP\\project\\WPF\\WpfPart1\\lab12\\StudentCard\\MainWindow.xaml",
+              "RelativeDocumentMoniker": "StudentCard\\MainWindow.xaml",
+              "ToolTip": "D:\\BSU\\SVPP\\project\\WPF\\WpfPart1\\lab12\\StudentCard\\MainWindow.xaml",
+              "RelativeToolTip": "StudentCard\\MainWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-01-03T21:55:44.089Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
