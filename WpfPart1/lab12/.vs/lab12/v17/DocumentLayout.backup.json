@@ -3,12 +3,12 @@
   "WorkspaceRootPath": "D:\\BSU\\SVPP\\project\\WPF\\WpfPart1\\lab12\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{9FA22459-1920-4EFF-9B48-B494170AD144}|HybridApplicationXAMLandCSharp\\HybridApplicationXAMLandCSharp.csproj|d:\\bsu\\svpp\\project\\wpf\\wpfpart1\\lab12\\hybridapplicationxamlandcsharp\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{9FA22459-1920-4EFF-9B48-B494170AD144}|HybridApplicationXAMLandCSharp\\HybridApplicationXAMLandCSharp.csproj|solutionrelative:hybridapplicationxamlandcsharp\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+      "AbsoluteMoniker": "D:0:0:{2A4860BB-56C7-4C9A-A27E-38C9C4D8F6DC}|StudentCard\\StudentCard.csproj|d:\\bsu\\svpp\\project\\wpf\\wpfpart1\\lab12\\studentcard\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{2A4860BB-56C7-4C9A-A27E-38C9C4D8F6DC}|StudentCard\\StudentCard.csproj|solutionrelative:studentcard\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{9FA22459-1920-4EFF-9B48-B494170AD144}|HybridApplicationXAMLandCSharp\\HybridApplicationXAMLandCSharp.csproj|d:\\bsu\\svpp\\project\\wpf\\wpfpart1\\lab12\\hybridapplicationxamlandcsharp\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9FA22459-1920-4EFF-9B48-B494170AD144}|HybridApplicationXAMLandCSharp\\HybridApplicationXAMLandCSharp.csproj|solutionrelative:hybridapplicationxamlandcsharp\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{2A4860BB-56C7-4C9A-A27E-38C9C4D8F6DC}|StudentCard\\StudentCard.csproj|d:\\bsu\\svpp\\project\\wpf\\wpfpart1\\lab12\\studentcard\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2A4860BB-56C7-4C9A-A27E-38C9C4D8F6DC}|StudentCard\\StudentCard.csproj|solutionrelative:studentcard\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -24,25 +24,25 @@
               "$type": "Document",
               "DocumentIndex": 1,
               "Title": "MainWindow.xaml.cs",
-              "DocumentMoniker": "D:\\BSU\\SVPP\\project\\WPF\\WpfPart1\\lab12\\HybridApplicationXAMLandCSharp\\MainWindow.xaml.cs",
-              "RelativeDocumentMoniker": "HybridApplicationXAMLandCSharp\\MainWindow.xaml.cs",
-              "ToolTip": "D:\\BSU\\SVPP\\project\\WPF\\WpfPart1\\lab12\\HybridApplicationXAMLandCSharp\\MainWindow.xaml.cs",
-              "RelativeToolTip": "HybridApplicationXAMLandCSharp\\MainWindow.xaml.cs",
-              "ViewState": "AgIAABwAAAAAAAAAAAAgwDEAAAAJAAAAAAAAAA==",
+              "DocumentMoniker": "D:\\BSU\\SVPP\\project\\WPF\\WpfPart1\\lab12\\StudentCard\\MainWindow.xaml.cs",
+              "RelativeDocumentMoniker": "StudentCard\\MainWindow.xaml.cs",
+              "ToolTip": "D:\\BSU\\SVPP\\project\\WPF\\WpfPart1\\lab12\\StudentCard\\MainWindow.xaml.cs",
+              "RelativeToolTip": "StudentCard\\MainWindow.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-03T21:28:32.707Z",
+              "WhenOpened": "2026-01-03T22:01:14.396Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "MainWindow.xaml",
-              "DocumentMoniker": "D:\\BSU\\SVPP\\project\\WPF\\WpfPart1\\lab12\\HybridApplicationXAMLandCSharp\\MainWindow.xaml",
-              "RelativeDocumentMoniker": "HybridApplicationXAMLandCSharp\\MainWindow.xaml",
-              "ToolTip": "D:\\BSU\\SVPP\\project\\WPF\\WpfPart1\\lab12\\HybridApplicationXAMLandCSharp\\MainWindow.xaml",
-              "RelativeToolTip": "HybridApplicationXAMLandCSharp\\MainWindow.xaml",
+              "DocumentMoniker": "D:\\BSU\\SVPP\\project\\WPF\\WpfPart1\\lab12\\StudentCard\\MainWindow.xaml",
+              "RelativeDocumentMoniker": "StudentCard\\MainWindow.xaml",
+              "ToolTip": "D:\\BSU\\SVPP\\project\\WPF\\WpfPart1\\lab12\\StudentCard\\MainWindow.xaml",
+              "RelativeToolTip": "StudentCard\\MainWindow.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2026-01-03T21:10:16.322Z",
+              "WhenOpened": "2026-01-03T21:55:44.089Z",
               "EditorCaption": ""
             }
           ]

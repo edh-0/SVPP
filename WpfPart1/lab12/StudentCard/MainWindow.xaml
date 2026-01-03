@@ -5,7 +5,7 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:StudentCard"
         mc:Ignorable="d"
-        Title="MainWindow" Height="450" Width="800">
+        Title="MainWindow" Height="530" Width="800">
     <Grid Margin="10" Background="#83BEEC">
         <Grid.RowDefinitions>
             <RowDefinition Height="Auto"/>
@@ -31,6 +31,7 @@
             <StackPanel>
                 <GroupBox Header="Личная информация">
                     <Grid Margin="5">
+                        
                         <Grid.ColumnDefinitions>
                             <ColumnDefinition Width="Auto"/>
                             <ColumnDefinition/>
@@ -40,17 +41,21 @@
                             <Label Content="Фамилия:" Margin="0,0,0,5"/>
                             <Label Content="Имя:" Margin="0,0,0,5"/>
                             <Label Content="Возраст:" Margin="0,0,0,5"/>
-                            <Label Content="Пол:"/>
+                            <Label Content="Пол:" Margin="0,26,0,0"/>
                         </StackPanel>
 
                         <StackPanel Grid.Column="1">
                             <TextBox x:Name="txtLastName" Margin="0,0,0,5" Height="25" Text=""/>
                             <TextBox x:Name="txtFirstName" Margin="0,0,0,5" Height="25" Text=""/>
                             <TextBox x:Name="txtAge" Margin="0,0,0,5" Height="25" Text=""/>
+                            <DatePicker x:Name="dpBirthDate" 
+                                        Margin="0,0,0,5" 
+                                        Height="25"
+                                        SelectedDateChanged="DatePicker_SelectedDateChanged"/>
                             
                             <StackPanel Orientation="Horizontal">
-                                <RadioButton x:Name="rbMale" Content="Мужской" GroupName="Gender" Margin="0,10,10,0"/>
-                                <RadioButton x:Name="rbFemale" Content="Женский" GroupName="Gender" Margin="0,10,10,0"/>
+                                <RadioButton x:Name="rbMale" Content="Мужской" GroupName="Gender" Margin="0,5,10,0"/>
+                                <RadioButton x:Name="rbFemale" Content="Женский" GroupName="Gender" Margin="0,5,10,0"/>
                             </StackPanel>
                         </StackPanel>
                     </Grid>
@@ -74,7 +79,7 @@
                         </StackPanel>
                     </Grid>
                 </GroupBox>
-                <GroupBox  Header="Обучение" >
+                <GroupBox Header="Обучение">
                     <Grid>
                         <Grid.ColumnDefinitions>
                             <ColumnDefinition Width="Auto"/>
@@ -84,25 +89,47 @@
                         <StackPanel Grid.Column="0" Margin="0,0,10,0">
                             <Label Content="Курс:" Margin="0,0,0,5"/>
                             <Label Content="Специализация:" Margin="0,0,0,5"/>
+                            <Label Content="Успеваемость:" Margin="0,0,0,5"/>
+                            <Label Content="Заполнение профиля:" Margin="0,0,0,0"/>
                         </StackPanel>
 
                         <StackPanel Grid.Column="1">
-                            <ComboBox x:Name="cmbCourse" 
-                                              Height="25" 
-                                              Margin="0,0,0,5">
+                            <ComboBox x:Name="cmbCourse" Height="25" Margin="0,0,0,5">
                                 <ComboBoxItem Content="1 курс" IsSelected="True"/>
                                 <ComboBoxItem Content="2 курс"/>
                                 <ComboBoxItem Content="3 курс"/>
                                 <ComboBoxItem Content="4 курс"/>
                             </ComboBox>
 
-                            <ComboBox x:Name="cmbSpecialization" 
-                                              Height="25" 
-                                              Margin="0,0,0,5">
+                            <ComboBox x:Name="cmbSpecialization" Height="25" Margin="0,0,0,5">
                                 <ComboBoxItem Content="Программирование" IsSelected="True"/>
                                 <ComboBoxItem Content="Дизайн"/>
                                 <ComboBoxItem Content="Сети"/>
                             </ComboBox>
+
+                            <StackPanel Margin="0,5,0,5">
+                                <Slider x:Name="sliderPerformance" 
+                                        Minimum="0" 
+                                        Maximum="10" 
+                                        Value="5"
+                                        ValueChanged="Slider_ValueChanged"/>
+                                <TextBlock x:Name="tbPerformanceValue" 
+                                           Text="Оценка: 5" 
+                                           HorizontalAlignment="Center"/>
+                            </StackPanel>
+
+                            <StackPanel Orientation="Horizontal">
+                                <ProgressBar x:Name="pbProfileProgress" 
+                                             Width="150" 
+                                             Height="15" 
+                                             Margin="0,0,10,0"
+                                             Minimum="0"
+                                             Maximum="100"
+                                             Value="0"/>    
+                                <TextBlock x:Name="tbProgressPercent" 
+                                           Text="0%" 
+                                           VerticalAlignment="Center"/>
+                            </StackPanel>
                         </StackPanel>
                     </Grid>
                 </GroupBox>
@@ -122,6 +149,7 @@
 
                 <Button Content="Загрузить фото" 
                         Click="BtnLoadPhoto_Click"/>
+
             </StackPanel>
         </Grid>
 

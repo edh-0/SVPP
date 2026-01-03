@@ -5,6 +5,10 @@
     {
       "AbsoluteMoniker": "D:0:0:{2A4860BB-56C7-4C9A-A27E-38C9C4D8F6DC}|StudentCard\\StudentCard.csproj|d:\\bsu\\svpp\\project\\wpf\\wpfpart1\\lab12\\studentcard\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
       "RelativeMoniker": "D:0:0:{2A4860BB-56C7-4C9A-A27E-38C9C4D8F6DC}|StudentCard\\StudentCard.csproj|solutionrelative:studentcard\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2A4860BB-56C7-4C9A-A27E-38C9C4D8F6DC}|StudentCard\\StudentCard.csproj|d:\\bsu\\svpp\\project\\wpf\\wpfpart1\\lab12\\studentcard\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2A4860BB-56C7-4C9A-A27E-38C9C4D8F6DC}|StudentCard\\StudentCard.csproj|solutionrelative:studentcard\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -14,8 +18,21 @@
       "DocumentGroups": [
         {
           "DockedWidth": 274,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 1,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "MainWindow.xaml.cs",
+              "DocumentMoniker": "D:\\BSU\\SVPP\\project\\WPF\\WpfPart1\\lab12\\StudentCard\\MainWindow.xaml.cs",
+              "RelativeDocumentMoniker": "StudentCard\\MainWindow.xaml.cs",
+              "ToolTip": "D:\\BSU\\SVPP\\project\\WPF\\WpfPart1\\lab12\\StudentCard\\MainWindow.xaml.cs",
+              "RelativeToolTip": "StudentCard\\MainWindow.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-03T22:01:14.396Z",
+              "EditorCaption": ""
+            },
             {
               "$type": "Document",
               "DocumentIndex": 0,
