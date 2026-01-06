@@ -1,0 +1,241 @@
+﻿<Window x:Class="StylesDemoProj.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:StylesDemoProj"
+        mc:Ignorable="d"
+        Title="Демонстрация стилей WPF" Height="450" Width="800">
+    <Window.Resources>
+        <!-- Ресурсы для демонстрации -->
+        <LinearGradientBrush x:Key="SpecialGradient" StartPoint="0,0" EndPoint="1,1">
+            <GradientStop Color="LightBlue" Offset="0"/>
+            <GradientStop Color="White" Offset="0.5"/>
+            <GradientStop Color="LightGreen" Offset="1"/>
+        </LinearGradientBrush>
+    </Window.Resources>
+
+    <Grid>
+        <TabControl>
+            <!-- Вкладка 1: Простые стили с Setters -->
+            <TabItem Header="1. Простые стили">
+                <ScrollViewer>
+                    <StackPanel Margin="20">
+                        <StackPanel.Resources>
+                            <!-- Простой стиль с коллекцией Setters -->
+                            <Style x:Key="SimpleButtonStyle" TargetType="Button">
+                                <Setter Property="Background" Value="LightBlue"/>
+                                <Setter Property="Foreground" Value="DarkBlue"/>
+                                <Setter Property="FontSize" Value="14"/>
+                                <Setter Property="FontWeight" Value="Bold"/>
+                                <Setter Property="Padding" Value="15,8"/>
+                                <Setter Property="Margin" Value="5"/>
+                                <Setter Property="BorderThickness" Value="2"/>
+                                <Setter Property="BorderBrush" Value="DarkBlue"/>
+                            </Style>
+
+                            <Style x:Key="SimpleTextBlockStyle" TargetType="TextBlock">
+                                <Setter Property="FontSize" Value="14"/>
+                                <Setter Property="Foreground" Value="DarkGreen"/>
+                                <Setter Property="FontWeight" Value="SemiBold"/>
+                                <Setter Property="Margin" Value="0,5"/>
+                                <Setter Property="TextWrapping" Value="Wrap"/>
+                            </Style>
+                        </StackPanel.Resources>
+                        
+                        <TextBlock Text="1. Простые стили с коллекцией Setters" 
+                                    FontSize="16" FontWeight="Bold" Margin="0,0,0,20"/>
+                        <TextBlock Text="Кнопки с простым стилем:" 
+                                     Style="{StaticResource SimpleTextBlockStyle}"/>
+
+                        <WrapPanel Margin="0,10">
+                            <Button Content="Кнопка 1" Style="{StaticResource SimpleButtonStyle}"/>
+                            <Button Content="Кнопка 2" Style="{StaticResource SimpleButtonStyle}"/>
+                            <Button Content="Кнопка 3" Style="{StaticResource SimpleButtonStyle}"/>
+                        </WrapPanel>
+
+                        <TextBlock Text="Каждая Setter устанавливает одно свойство:" 
+                                     Style="{StaticResource SimpleTextBlockStyle}" Margin="0,20,0,0"/>
+                    </StackPanel>
+                </ScrollViewer>
+            </TabItem>
+
+            <!-- Вкладка 2: Сложные объекты в стилях -->
+            <TabItem Header="2. Сложные объекты">
+                <ScrollViewer>
+                    <StackPanel Margin="20">
+                        <StackPanel.Resources>
+                            <!-- Стиль со сложными объектами -->
+                            <Style x:Key="ComplexButtonStyle" TargetType="Button">
+                                <Setter Property="Background">
+                                    <Setter.Value>
+                                        <LinearGradientBrush StartPoint="0,0" EndPoint="1,1">
+                                            <GradientStop Color="#3498DB" Offset="0"/>
+                                            <GradientStop Color="#2980B9" Offset="0.5"/>
+                                            <GradientStop Color="#21618C" Offset="1"/>
+                                        </LinearGradientBrush>
+                                    </Setter.Value>
+                                </Setter>
+                                <Setter Property="Foreground" Value="White"/>
+                                <Setter Property="BorderBrush">
+                                    <Setter.Value>
+                                        <LinearGradientBrush StartPoint="0,0" EndPoint="1,0">
+                                            <GradientStop Color="DarkBlue" Offset="0"/>
+                                            <GradientStop Color="Blue" Offset="1"/>
+                                        </LinearGradientBrush>
+                                    </Setter.Value>
+                                </Setter>
+                                <Setter Property="BorderThickness" Value="3"/>
+                                <Setter Property="Padding" Value="20,10"/>
+                                <Setter Property="FontSize" Value="14"/>
+                                <Setter Property="FontWeight" Value="Bold"/>
+                                <Setter Property="Margin" Value="10"/>
+                                <Setter Property="Cursor" Value="Hand"/>
+                            </Style>
+
+                            <!-- Стиль с внешним ресурсом -->
+                            <Style x:Key="ResourceButtonStyle" TargetType="Button">
+                                <Setter Property="Background" 
+                            Value="{StaticResource SpecialGradient}"/>
+                                <Setter Property="Foreground" Value="DarkRed"/>
+                                <Setter Property="BorderThickness" Value="2"/>
+                                <Setter Property="BorderBrush" Value="DarkRed"/>
+                                <Setter Property="Padding" Value="15,8"/>
+                                <Setter Property="FontSize" Value="13"/>
+                                <Setter Property="FontWeight" Value="Bold"/>
+                                <Setter Property="Margin" Value="5"/>
+                            </Style>
+                        </StackPanel.Resources>
+                        
+                        <TextBlock Text="2. Сложные объекты в стилях" FontSize="16" FontWeight="Bold" Margin="0,0,0,20"/>
+                        <TextBlock Text="Кнопка со сложным градиентом внутри стиля:" FontWeight="Bold" Margin="0,0,0,10"/>
+
+                        <Button Content="Градиентная кнопка" 
+                                Style="{StaticResource ComplexButtonStyle}" 
+                                HorizontalAlignment="Left"/>
+
+                        <TextBlock Text="Кнопка с внешним ресурсом градиента:" FontWeight="Bold" Margin="0,20,0,10"/>
+
+                        <Button Content="Кнопка с внешним ресурсом" HorizontalAlignment="Left" 
+                                Style="{StaticResource ResourceButtonStyle}"/>
+
+                    </StackPanel>
+                </ScrollViewer>
+            </TabItem>
+
+            <!-- Вкладка 3: TargetType -->
+            <TabItem Header="2. Сложные объекты">
+                <ScrollViewer>
+                    <StackPanel Margin="20">
+                        <StackPanel.Resources>
+                            <!-- Стиль со сложными объектами -->
+                            <!--<Style TargetType="Button">
+                                <Setter Property="Background">
+                                    <Setter.Value>
+                                        <LinearGradientBrush StartPoint="0,0" EndPoint="1,1">
+                                            <GradientStop Color="#3498DB" Offset="0"/>
+                                            <GradientStop Color="#2980B9" Offset="0.5"/>
+                                            <GradientStop Color="#21618C" Offset="1"/>
+                                        </LinearGradientBrush>
+                                    </Setter.Value>
+                                </Setter>
+                                <Setter Property="Foreground" Value="White"/>
+                                <Setter Property="BorderBrush">
+                                    <Setter.Value>
+                                        <LinearGradientBrush StartPoint="0,0" EndPoint="1,0">
+                                            <GradientStop Color="DarkBlue" Offset="0"/>
+                                            <GradientStop Color="Blue" Offset="1"/>
+                                        </LinearGradientBrush>
+                                    </Setter.Value>
+                                </Setter>
+                                <Setter Property="BorderThickness" Value="3"/>
+                                <Setter Property="Padding" Value="20,10"/>
+                                <Setter Property="FontSize" Value="14"/>
+                                <Setter Property="FontWeight" Value="Bold"/>
+                                <Setter Property="Margin" Value="10"/>
+                                <Setter Property="Cursor" Value="Hand"/>
+                            </Style>-->
+
+                            <!-- Стиль с внешним ресурсом -->
+                            <Style TargetType="Button">
+                                <Setter Property="Background" 
+                                         Value="{StaticResource SpecialGradient}"/>
+                                <Setter Property="Foreground" Value="DarkRed"/>
+                                <Setter Property="BorderThickness" Value="2"/>
+                                <Setter Property="BorderBrush" Value="DarkRed"/>
+                                <Setter Property="Padding" Value="15,8"/>
+                                <Setter Property="FontSize" Value="13"/>
+                                <Setter Property="FontWeight" Value="Bold"/>
+                                <Setter Property="Margin" Value="5"/>
+                            </Style>
+                        </StackPanel.Resources>
+
+                        <TextBlock Text="2. Сложные объекты в стилях" FontSize="16" FontWeight="Bold" Margin="0,0,0,20"/>
+                        <TextBlock Text="Кнопка со сложным градиентом внутри стиля:" FontWeight="Bold" Margin="0,0,0,10"/>
+
+                        <Button Content="Градиентная кнопка" 
+                                HorizontalAlignment="Left"/>
+
+                        <TextBlock Text="Кнопка с внешним ресурсом градиента:" FontWeight="Bold" Margin="0,20,0,10"/>
+
+                        <Button Content="Кнопка с внешним ресурсом" HorizontalAlignment="Left" />
+
+                    </StackPanel>
+                </ScrollViewer>
+            </TabItem>
+            <!-- Вкладка 4: Обработчики событий -->
+            <TabItem Header="4. Обработчики событий" HorizontalAlignment="Right" Width="149">
+                <Grid Background="LightBlue">
+                    <ScrollViewer>
+                        <StackPanel Margin="20">
+                            <StackPanel.Resources>
+                                <!-- Стиль с EventSetters -->
+                                <Style x:Key="EventButtonStyle" TargetType="Button">
+                                    <Setter Property="Background" Value="#9B59B6"/>
+                                    <Setter Property="Foreground" Value="White"/>
+                                    <Setter Property="Padding" Value="15,8"/>
+                                    <Setter Property="Margin" Value="5"/>
+                                    <Setter Property="FontWeight" Value="Bold"/>
+                                    <Setter Property="Cursor" Value="Hand"/>
+
+                                    <!-- Обработчики событий -->
+                                    <EventSetter Event="Click" Handler="EventButton_Click"/>
+                                    <EventSetter Event="MouseEnter" Handler="EventButton_MouseEnter"/>
+                                    <EventSetter Event="MouseLeave" Handler="EventButton_MouseLeave"/>
+                                </Style>
+                            </StackPanel.Resources>
+
+                            <TextBlock Text="4. Обработчики событий в стилях" 
+                                       FontSize="16" FontWeight="Bold" Margin="0,0,0,20"/>
+
+                            <TextBlock Text="Кнопки с обработчиками событий в стиле:" 
+                                       FontWeight="Bold" Margin="0,0,0,10"/>
+
+                            <WrapPanel Margin="0,10">
+                                <Button Content="Кнопка 1" Style="{StaticResource EventButtonStyle}"/>
+                                <Button Content="Кнопка 2" Style="{StaticResource EventButtonStyle}"/>
+                                <Button Content="Кнопка 3" Style="{StaticResource EventButtonStyle}"/>
+                            </WrapPanel>
+
+                            <TextBlock x:Name="eventStatusText" Text="Нажмите на кнопки или наведите курсор" FontWeight="Bold" Foreground="DarkBlue" Margin="0,20" TextWrapping="Wrap"/>
+
+                            <ListBox x:Name="eventLogListBox" Height="120" Margin="0,10">
+                                <ListBoxItem Content="Журнал событий будет отображаться здесь"/>
+                            </ListBox>
+
+                            <TextBlock Text="EventSetters в стиле:" FontWeight="Bold" Margin="0,20,0,0"/>
+
+                            <TextBox IsReadOnly="True" TextWrapping="Wrap" Height="80" Margin="0,10">
+                                &lt;EventSetter Event="Click" Handler="EventButton_Click"/&gt;
+                                &lt;EventSetter Event="MouseEnter" Handler="EventButton_MouseEnter"/&gt;
+                                &lt;EventSetter Event="MouseLeave" Handler="EventButton_MouseLeave"/&gt;
+                            </TextBox>
+                        </StackPanel>
+                    </ScrollViewer>
+                </Grid>
+            </TabItem>
+
+        </TabControl>
+
+    </Grid>
+</Window>

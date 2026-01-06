@@ -1,0 +1,113 @@
+﻿<Window x:Class="lab14_StyleInheritanceCodeBehind.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:lab14_StyleInheritanceCodeBehind"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <TabControl>
+        <!-- Вкладка 1: Создание стилей в коде -->
+        <TabItem Header="1. Создание стилей">
+            <ScrollViewer>
+                <StackPanel Margin="20" x:Name="tab1Panel">
+                    <TextBlock Text="Создание стилей в коде C#" 
+                      FontSize="16" FontWeight="Bold" Margin="0,0,0,20"/>
+
+                    <WrapPanel x:Name="styleDemoPanel" Margin="0,10">
+                        <!-- Кнопки будут созданы в коде -->
+                    </WrapPanel>
+
+                    <StackPanel Margin="0,20">
+                        <Button Content="Создать базовый стиль" 
+                       Click="CreateBaseStyle_Click"
+                       Padding="10,5" Margin="0,5"/>
+
+                        <Button Content="Создать наследующий стиль" 
+                       Click="CreateInheritedStyle_Click"
+                       Padding="10,5" Margin="0,5"/>
+
+                        <Button Content="Очистить кнопки" 
+                       Click="ClearButtons_Click"
+                       Padding="10,5" Margin="0,5"/>
+                    </StackPanel>
+
+                    <TextBlock x:Name="styleStatusText" 
+                      Text="Статус: ожидание действий" 
+                      FontStyle="Italic" Foreground="Gray" Margin="0,10"/>
+                </StackPanel>
+            </ScrollViewer>
+        </TabItem>
+
+        <!-- Вкладка 2: Многоуровневое наследование -->
+        <TabItem Header="2. Многоуровневое наследование">
+            <ScrollViewer>
+                <StackPanel Margin="20" x:Name="tab2Panel">
+                    <TextBlock Text="Многоуровневое наследование стилей" 
+                      FontSize="16" FontWeight="Bold" Margin="0,0,0,20"/>
+
+                    <WrapPanel x:Name="multiLevelPanel" Margin="0,10">
+                        <!-- Кнопки будут созданы в коде -->
+                    </WrapPanel>
+
+                    <Button Content="Создать цепочку наследования" 
+                   Click="CreateInheritanceChain_Click"
+                   Padding="10,5" Margin="0,20"/>
+
+                    <TextBlock Text="Иерархия наследования:" 
+                      FontWeight="Bold" Margin="0,10,0,5"/>
+
+                    <ListBox x:Name="inheritanceListBox" Height="100" Margin="0,5">
+                        <ListBoxItem Content="Будет показана после создания стилей"/>
+                    </ListBox>
+                </StackPanel>
+            </ScrollViewer>
+        </TabItem>
+
+        <!-- Вкладка 3: Динамическое изменение наследования -->
+        <TabItem Header="3. Динамическое управление">
+            <ScrollViewer>
+                <StackPanel Margin="20">
+                    <TextBlock Text="Динамическое управление наследованием" 
+                      FontSize="16" FontWeight="Bold" Margin="0,0,0,20"/>
+
+                    <Border x:Name="dynamicButtonBorder" 
+                   Background="LightGray" 
+                   Padding="20" CornerRadius="5" Margin="0,10">
+                        <Button x:Name="dynamicButton" 
+                       Content="Тестовая кнопка" 
+                       Padding="15,8" FontSize="14"/>
+                    </Border>
+
+                    <StackPanel Margin="0,20">
+                        <Button Content="Применить BaseStyle" 
+                       Click="ApplyBaseStyle_Click"
+                       Background="#3498DB" Foreground="White" 
+                       Padding="10,5" Margin="0,5"/>
+
+                        <Button Content="Наследовать от BaseStyle" 
+                       Click="InheritFromBaseStyle_Click"
+                       Background="#27AE60" Foreground="White" 
+                       Padding="10,5" Margin="0,5"/>
+
+                        <Button Content="Сменить родительский стиль" 
+                       Click="ChangeParentStyle_Click"
+                       Background="#E74C3C" Foreground="White" 
+                       Padding="10,5" Margin="0,5"/>
+
+                        <Button Content="Удалить наследование" 
+                       Click="RemoveInheritance_Click"
+                       Background="#F39C12" Foreground="Black" 
+                       Padding="10,5" Margin="0,5"/>
+                    </StackPanel>
+
+                    <TextBlock x:Name="dynamicStatusText" 
+                      Text="Текущий стиль: не установлен" 
+                      FontWeight="Bold" Margin="0,10"/>
+                </StackPanel>
+            </ScrollViewer>
+        </TabItem>
+        </TabControl>
+    </Grid>
+</Window>

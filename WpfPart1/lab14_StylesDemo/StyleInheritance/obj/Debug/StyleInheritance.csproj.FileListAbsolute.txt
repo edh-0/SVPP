@@ -1,0 +1,15 @@
+D:\BSU\SVPP\project\WPF\WpfPart1\lab14_StylesDemo\StyleInheritance\bin\Debug\StyleInheritance.exe.config
+D:\BSU\SVPP\project\WPF\WpfPart1\lab14_StylesDemo\StyleInheritance\bin\Debug\StyleInheritance.exe
+D:\BSU\SVPP\project\WPF\WpfPart1\lab14_StylesDemo\StyleInheritance\bin\Debug\StyleInheritance.pdb
+D:\BSU\SVPP\project\WPF\WpfPart1\lab14_StylesDemo\StyleInheritance\obj\Debug\StyleInheritance.csproj.AssemblyReference.cache
+D:\BSU\SVPP\project\WPF\WpfPart1\lab14_StylesDemo\StyleInheritance\obj\Debug\MainWindow.g.cs
+D:\BSU\SVPP\project\WPF\WpfPart1\lab14_StylesDemo\StyleInheritance\obj\Debug\App.g.cs
+D:\BSU\SVPP\project\WPF\WpfPart1\lab14_StylesDemo\StyleInheritance\obj\Debug\StyleInheritance_MarkupCompile.cache
+D:\BSU\SVPP\project\WPF\WpfPart1\lab14_StylesDemo\StyleInheritance\obj\Debug\StyleInheritance_MarkupCompile.lref
+D:\BSU\SVPP\project\WPF\WpfPart1\lab14_StylesDemo\StyleInheritance\obj\Debug\MainWindow.baml
+D:\BSU\SVPP\project\WPF\WpfPart1\lab14_StylesDemo\StyleInheritance\obj\Debug\StyleInheritance.g.resources
+D:\BSU\SVPP\project\WPF\WpfPart1\lab14_StylesDemo\StyleInheritance\obj\Debug\StyleInheritance.Properties.Resources.resources
+D:\BSU\SVPP\project\WPF\WpfPart1\lab14_StylesDemo\StyleInheritance\obj\Debug\StyleInheritance.csproj.GenerateResource.cache
+D:\BSU\SVPP\project\WPF\WpfPart1\lab14_StylesDemo\StyleInheritance\obj\Debug\StyleInheritance.csproj.CoreCompileInputs.cache
+D:\BSU\SVPP\project\WPF\WpfPart1\lab14_StylesDemo\StyleInheritance\obj\Debug\StyleInheritance.exe
+D:\BSU\SVPP\project\WPF\WpfPart1\lab14_StylesDemo\StyleInheritance\obj\Debug\StyleInheritance.pdb

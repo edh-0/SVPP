@@ -1,0 +1,16 @@
+D:\BSU\SVPP\project\WPF\WpfPart1\lab14_StylesDemo\lab14_StyleInheritanceCodeBehind\obj\Debug\lab14_StyleInheritanceCodeBehind.csproj.AssemblyReference.cache
+D:\BSU\SVPP\project\WPF\WpfPart1\lab14_StylesDemo\lab14_StyleInheritanceCodeBehind\obj\Debug\MainWindow.g.cs
+D:\BSU\SVPP\project\WPF\WpfPart1\lab14_StylesDemo\lab14_StyleInheritanceCodeBehind\obj\Debug\App.g.cs
+D:\BSU\SVPP\project\WPF\WpfPart1\lab14_StylesDemo\lab14_StyleInheritanceCodeBehind\obj\Debug\lab14_StyleInheritanceCodeBehind_MarkupCompile.cache
+D:\BSU\SVPP\project\WPF\WpfPart1\lab14_StylesDemo\lab14_StyleInheritanceCodeBehind\obj\Debug\lab14_StyleInheritanceCodeBehind_MarkupCompile.lref
+D:\BSU\SVPP\project\WPF\WpfPart1\lab14_StylesDemo\lab14_StyleInheritanceCodeBehind\bin\Debug\lab14_StyleInheritanceCodeBehind.exe.config
+D:\BSU\SVPP\project\WPF\WpfPart1\lab14_StylesDemo\lab14_StyleInheritanceCodeBehind\bin\Debug\lab14_StyleInheritanceCodeBehind.exe
+D:\BSU\SVPP\project\WPF\WpfPart1\lab14_StylesDemo\lab14_StyleInheritanceCodeBehind\bin\Debug\lab14_StyleInheritanceCodeBehind.pdb
+D:\BSU\SVPP\project\WPF\WpfPart1\lab14_StylesDemo\lab14_StyleInheritanceCodeBehind\obj\Debug\MainWindow.baml
+D:\BSU\SVPP\project\WPF\WpfPart1\lab14_StylesDemo\lab14_StyleInheritanceCodeBehind\obj\Debug\lab14_StyleInheritanceCodeBehind.g.resources
+D:\BSU\SVPP\project\WPF\WpfPart1\lab14_StylesDemo\lab14_StyleInheritanceCodeBehind\obj\Debug\lab14_StyleInheritanceCodeBehind.Properties.Resources.resources
+D:\BSU\SVPP\project\WPF\WpfPart1\lab14_StylesDemo\lab14_StyleInheritanceCodeBehind\obj\Debug\lab14_StyleInheritanceCodeBehind.csproj.GenerateResource.cache
+D:\BSU\SVPP\project\WPF\WpfPart1\lab14_StylesDemo\lab14_StyleInheritanceCodeBehind\obj\Debug\lab14_StyleInheritanceCodeBehind.csproj.CoreCompileInputs.cache
+D:\BSU\SVPP\project\WPF\WpfPart1\lab14_StylesDemo\lab14_StyleInheritanceCodeBehind\obj\Debug\lab14_StyleInheritanceCodeBehind.exe
+D:\BSU\SVPP\project\WPF\WpfPart1\lab14_StylesDemo\lab14_StyleInheritanceCodeBehind\obj\Debug\lab14_StyleInheritanceCodeBehind.pdb
+D:\BSU\SVPP\project\WPF\WpfPart1\lab14_StylesDemo\lab14_StyleInheritanceCodeBehind\obj\Debug\lab14_StyleInheritanceCodeBehind.exe.config
