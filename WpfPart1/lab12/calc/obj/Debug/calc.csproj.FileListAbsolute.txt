@@ -1,0 +1,15 @@
+D:\BSU\SVPP\project\WPF\WpfPart1\lab12\calc\bin\Debug\calc.exe.config
+D:\BSU\SVPP\project\WPF\WpfPart1\lab12\calc\bin\Debug\calc.exe
+D:\BSU\SVPP\project\WPF\WpfPart1\lab12\calc\bin\Debug\calc.pdb
+D:\BSU\SVPP\project\WPF\WpfPart1\lab12\calc\obj\Debug\calc.csproj.AssemblyReference.cache
+D:\BSU\SVPP\project\WPF\WpfPart1\lab12\calc\obj\Debug\MainWindow.baml
+D:\BSU\SVPP\project\WPF\WpfPart1\lab12\calc\obj\Debug\MainWindow.g.cs
+D:\BSU\SVPP\project\WPF\WpfPart1\lab12\calc\obj\Debug\App.g.cs
+D:\BSU\SVPP\project\WPF\WpfPart1\lab12\calc\obj\Debug\calc_MarkupCompile.cache
+D:\BSU\SVPP\project\WPF\WpfPart1\lab12\calc\obj\Debug\calc.g.resources
+D:\BSU\SVPP\project\WPF\WpfPart1\lab12\calc\obj\Debug\calc.Properties.Resources.resources
+D:\BSU\SVPP\project\WPF\WpfPart1\lab12\calc\obj\Debug\calc.csproj.GenerateResource.cache
+D:\BSU\SVPP\project\WPF\WpfPart1\lab12\calc\obj\Debug\calc.csproj.CoreCompileInputs.cache
+D:\BSU\SVPP\project\WPF\WpfPart1\lab12\calc\obj\Debug\calc.exe
+D:\BSU\SVPP\project\WPF\WpfPart1\lab12\calc\obj\Debug\calc.pdb
+D:\BSU\SVPP\project\WPF\WpfPart1\lab12\calc\obj\Debug\calc.exe.config

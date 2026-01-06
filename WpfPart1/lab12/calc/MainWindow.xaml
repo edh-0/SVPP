@@ -1,0 +1,63 @@
+﻿<Window x:Class="calc.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Калькулятор" Height="450" Width="300"
+        WindowStartupLocation="CenterScreen"
+        ResizeMode="NoResize">
+    
+    <Grid Background="LightGray" Margin="10">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="60"/>      
+            <RowDefinition Height="80"/>      
+            <RowDefinition Height="*"/>       
+        </Grid.RowDefinitions>
+        
+        <Border Grid.Row="0" 
+                Background="White" 
+                BorderBrush="Gray" 
+                BorderThickness="1"
+                Margin="0,0,0,5"
+                CornerRadius="3">
+            <TextBlock x:Name="txtExpression" 
+                       Text="" 
+                       FontSize="16" 
+                       HorizontalAlignment="Right"
+                       VerticalAlignment="Center"
+                       Margin="10"
+                       Foreground="Gray"/>
+        </Border>
+        
+        <!-- Дисплей (результат) -->
+        <Border Grid.Row="1" 
+                Background="White" 
+                BorderBrush="Black" 
+                BorderThickness="2"
+                Margin="0,0,0,10"
+                CornerRadius="5">
+            <TextBlock x:Name="txtDisplay" 
+                       Text="0,00" 
+                       FontSize="24" 
+                       HorizontalAlignment="Right"
+                       VerticalAlignment="Center"
+                       Margin="10"
+                       FontWeight="Bold"/>
+        </Border>
+        
+        <!-- Grid для кнопок -->
+        <Grid x:Name="gridButtons" Grid.Row="2">
+            <Grid.RowDefinitions>
+                <RowDefinition/>
+                <RowDefinition/>
+                <RowDefinition/>
+                <RowDefinition/>
+                <RowDefinition/>
+            </Grid.RowDefinitions>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+            </Grid.ColumnDefinitions>
+        </Grid>
+    </Grid>
+</Window>

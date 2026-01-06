@@ -1,0 +1,15 @@
+D:\BSU\SVPP\project\WPF\WpfPart1\lab12\converter\bin\Debug\converter.exe.config
+D:\BSU\SVPP\project\WPF\WpfPart1\lab12\converter\bin\Debug\converter.exe
+D:\BSU\SVPP\project\WPF\WpfPart1\lab12\converter\bin\Debug\converter.pdb
+D:\BSU\SVPP\project\WPF\WpfPart1\lab12\converter\obj\Debug\converter.csproj.AssemblyReference.cache
+D:\BSU\SVPP\project\WPF\WpfPart1\lab12\converter\obj\Debug\MainWindow.baml
+D:\BSU\SVPP\project\WPF\WpfPart1\lab12\converter\obj\Debug\MainWindow.g.cs
+D:\BSU\SVPP\project\WPF\WpfPart1\lab12\converter\obj\Debug\App.g.cs
+D:\BSU\SVPP\project\WPF\WpfPart1\lab12\converter\obj\Debug\converter_MarkupCompile.cache
+D:\BSU\SVPP\project\WPF\WpfPart1\lab12\converter\obj\Debug\converter.g.resources
+D:\BSU\SVPP\project\WPF\WpfPart1\lab12\converter\obj\Debug\converter.Properties.Resources.resources
+D:\BSU\SVPP\project\WPF\WpfPart1\lab12\converter\obj\Debug\converter.csproj.GenerateResource.cache
+D:\BSU\SVPP\project\WPF\WpfPart1\lab12\converter\obj\Debug\converter.csproj.CoreCompileInputs.cache
+D:\BSU\SVPP\project\WPF\WpfPart1\lab12\converter\obj\Debug\converter.exe
+D:\BSU\SVPP\project\WPF\WpfPart1\lab12\converter\obj\Debug\converter.pdb
+D:\BSU\SVPP\project\WPF\WpfPart1\lab12\converter\obj\Debug\converter.exe.config
