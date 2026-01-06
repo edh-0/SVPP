@@ -4,12 +4,6 @@
              xmlns:local="clr-namespace:lab14_ThemesWPF"
              StartupUri="MainWindow.xaml">
     <Application.Resources>
-        <ResourceDictionary>
-            <ResourceDictionary.MergedDictionaries>
-                <ResourceDictionary Source="dark.xaml"/>
-                <ResourceDictionary Source="light.xaml"/>
-                <ResourceDictionary Source="green.xaml"/>
-            </ResourceDictionary.MergedDictionaries>
-        </ResourceDictionary>
+        <ResourceDictionary Source="dark.xaml"/>
     </Application.Resources>
 </Application>

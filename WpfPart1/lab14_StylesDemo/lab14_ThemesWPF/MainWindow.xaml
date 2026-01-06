@@ -6,14 +6,68 @@
         xmlns:local="clr-namespace:lab14_ThemesWPF"
         mc:Ignorable="d"
         Style="{DynamicResource WindowStyle}" 
-        Title="Темы WPF" Height="450" Width="800">
+        Title="Темы WPF" Height="500" Width="800">
+
     <Grid>
-        <StackPanel>
-            <ComboBox x:Name="styleBox" />
-            <Button Content="Hello WPF" Style="{DynamicResource ButtonStyle}" />
-            <TextBlock Text="Windows Presentation Foundation" 
-                    Style="{DynamicResource TextBlockStyle}" />
+        <!-- Панель выбора темы -->
+        <StackPanel VerticalAlignment="Top" Margin="20">
+            <TextBlock Text="Выберите тему:" FontSize="14" Margin="0,0,0,10"/>
+            <ComboBox x:Name="styleBox" Width="200"/>
         </StackPanel>
 
+        <!-- Различные элементы управления -->
+        <StackPanel VerticalAlignment="Center" HorizontalAlignment="Center" Width="600">
+
+            <!-- Строка 1: Кнопки -->
+            <StackPanel Orientation="Horizontal" Margin="0,0,0,15">
+                <Button Content="Кнопка 1" Style="{DynamicResource ButtonStyle}" 
+                        Width="180" Height="40" Margin="10"/>
+                <Button Content="Кнопка 2" Style="{DynamicResource ButtonStyle}" 
+                        Width="180" Height="40" Margin="10"/>
+                <Button Content="Кнопка 3" Style="{DynamicResource ButtonStyle}" 
+                        Width="180" Height="40" Margin="10"/>
+            </StackPanel>
+
+            <!-- Строка 2: Текстовые элементы -->
+            <StackPanel Orientation="Horizontal" Margin="0,0,0,15">
+                <TextBox Text="Текстовое поле" Style="{DynamicResource TextBoxStyle}" 
+                        Width="180" Height="40" Margin="10"/>
+                <TextBlock Text="Текстовый блок" Style="{DynamicResource TextBlockStyle}" 
+                          Width="180" Height="40" Margin="10" VerticalAlignment="Center"/>
+                <ComboBox SelectedIndex="0" Style="{DynamicResource ComboBoxStyle}" 
+                         Width="180" Height="40" Margin="10">
+                    <ComboBoxItem>Элемент 1</ComboBoxItem>
+                    <ComboBoxItem>Элемент 2</ComboBoxItem>
+                    <ComboBoxItem>Элемент 3</ComboBoxItem>
+                </ComboBox>
+            </StackPanel>
+
+            <!-- Строка 3: Переключатели -->
+            <StackPanel Orientation="Horizontal" Margin="0,0,0,15">
+                <CheckBox Content="Флажок" Style="{DynamicResource CheckBoxStyle}" 
+                         VerticalAlignment="Center" Margin="10"/>
+                <RadioButton Content="Опция 1" Style="{DynamicResource RadioButtonStyle}" 
+                           Margin="10"/>
+                <RadioButton Content="Опция 2" Style="{DynamicResource RadioButtonStyle}" 
+                           Margin="10"/>
+            </StackPanel>
+
+            <!-- Строка 4: Прочие элементы -->
+            <StackPanel Orientation="Horizontal">
+                <Slider Minimum="0" Maximum="100" Value="50" 
+                       Style="{DynamicResource SliderStyle}" Width="180" Margin="10"/>
+                <ProgressBar Value="75" Style="{DynamicResource ProgressBarStyle}" 
+                           Width="180" Height="20" Margin="10" VerticalAlignment="Center"/>
+                <Border Style="{DynamicResource BorderStyle}" 
+                       Width="180" Height="80" Margin="10">
+                    <TextBlock Text="Border" VerticalAlignment="Center" 
+                             HorizontalAlignment="Center"/>
+                </Border>
+            </StackPanel>
+
+            <!-- Информация о текущей теме -->
+            <TextBlock x:Name="themeInfo" HorizontalAlignment="Center" Margin="0,20,0,0"
+                      FontSize="14" FontWeight="Bold"/>
+        </StackPanel>
     </Grid>
 </Window>

@@ -18,3 +18,5 @@ D:\BSU\SVPP\project\WPF\WpfPart1\lab14_StylesDemo\lab14_ThemesWPF\obj\Debug\lab1
 D:\BSU\SVPP\project\WPF\WpfPart1\lab14_StylesDemo\lab14_ThemesWPF\obj\Debug\lab14_ThemesWPF.exe
 D:\BSU\SVPP\project\WPF\WpfPart1\lab14_StylesDemo\lab14_ThemesWPF\obj\Debug\lab14_ThemesWPF.pdb
 D:\BSU\SVPP\project\WPF\WpfPart1\lab14_StylesDemo\lab14_ThemesWPF\obj\Debug\lab14_ThemesWPF.exe.config
+D:\BSU\SVPP\project\WPF\WpfPart1\lab14_StylesDemo\lab14_ThemesWPF\obj\Debug\boys.baml
+D:\BSU\SVPP\project\WPF\WpfPart1\lab14_StylesDemo\lab14_ThemesWPF\obj\Debug\girls.baml

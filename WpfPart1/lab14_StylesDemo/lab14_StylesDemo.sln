@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
-VisualStudioVersion = 17.14.36518.9 d17.14
+VisualStudioVersion = 17.14.36518.9
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StylesDemoProj", "StylesDemoProj\StylesDemoProj.csproj", "{8AF0F17F-FD59-46CA-B4A0-9EB066C6BC84}"
 EndProject
@@ -12,6 +12,8 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "lab14_StylesTriggersDemo", "lab14_StylesTriggersDemo\lab14_StylesTriggersDemo.csproj", "{1AB3F787-0052-4E6F-8314-90A194F6CC19}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "lab14_ThemesWPF", "lab14_ThemesWPF\lab14_ThemesWPF.csproj", "{0426E224-7CDA-4E0F-98FD-5A9CFB43B83E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StudentCard", "..\lab12\StudentCard\StudentCard.csproj", "{2A4860BB-56C7-4C9A-A27E-38C9C4D8F6DC}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -39,6 +41,10 @@ Global
 		{0426E224-7CDA-4E0F-98FD-5A9CFB43B83E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0426E224-7CDA-4E0F-98FD-5A9CFB43B83E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0426E224-7CDA-4E0F-98FD-5A9CFB43B83E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2A4860BB-56C7-4C9A-A27E-38C9C4D8F6DC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2A4860BB-56C7-4C9A-A27E-38C9C4D8F6DC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2A4860BB-56C7-4C9A-A27E-38C9C4D8F6DC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2A4860BB-56C7-4C9A-A27E-38C9C4D8F6DC}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

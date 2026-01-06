@@ -3,28 +3,16 @@
   "WorkspaceRootPath": "D:\\BSU\\SVPP\\project\\WPF\\WpfPart1\\lab14_StylesDemo\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{0426E224-7CDA-4E0F-98FD-5A9CFB43B83E}|lab14_ThemesWPF\\lab14_ThemesWPF.csproj|d:\\bsu\\svpp\\project\\wpf\\wpfpart1\\lab14_stylesdemo\\lab14_themeswpf\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{0426E224-7CDA-4E0F-98FD-5A9CFB43B83E}|lab14_ThemesWPF\\lab14_ThemesWPF.csproj|solutionrelative:lab14_themeswpf\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+      "AbsoluteMoniker": "D:0:0:{2A4860BB-56C7-4C9A-A27E-38C9C4D8F6DC}|..\\lab12\\StudentCard\\StudentCard.csproj|d:\\bsu\\svpp\\project\\wpf\\wpfpart1\\lab12\\studentcard\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0426E224-7CDA-4E0F-98FD-5A9CFB43B83E}|lab14_ThemesWPF\\lab14_ThemesWPF.csproj|d:\\bsu\\svpp\\project\\wpf\\wpfpart1\\lab14_stylesdemo\\lab14_themeswpf\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0426E224-7CDA-4E0F-98FD-5A9CFB43B83E}|lab14_ThemesWPF\\lab14_ThemesWPF.csproj|solutionrelative:lab14_themeswpf\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{2A4860BB-56C7-4C9A-A27E-38C9C4D8F6DC}|..\\lab12\\StudentCard\\StudentCard.csproj|d:\\bsu\\svpp\\project\\wpf\\wpfpart1\\lab12\\studentcard\\app.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0426E224-7CDA-4E0F-98FD-5A9CFB43B83E}|lab14_ThemesWPF\\lab14_ThemesWPF.csproj|d:\\bsu\\svpp\\project\\wpf\\wpfpart1\\lab14_stylesdemo\\lab14_themeswpf\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{0426E224-7CDA-4E0F-98FD-5A9CFB43B83E}|lab14_ThemesWPF\\lab14_ThemesWPF.csproj|solutionrelative:lab14_themeswpf\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+      "AbsoluteMoniker": "D:0:0:{2A4860BB-56C7-4C9A-A27E-38C9C4D8F6DC}|..\\lab12\\StudentCard\\StudentCard.csproj|d:\\bsu\\svpp\\project\\wpf\\wpfpart1\\lab12\\studentcard\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0426E224-7CDA-4E0F-98FD-5A9CFB43B83E}|lab14_ThemesWPF\\lab14_ThemesWPF.csproj|d:\\bsu\\svpp\\project\\wpf\\wpfpart1\\lab14_stylesdemo\\lab14_themeswpf\\green.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{0426E224-7CDA-4E0F-98FD-5A9CFB43B83E}|lab14_ThemesWPF\\lab14_ThemesWPF.csproj|solutionrelative:lab14_themeswpf\\green.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0426E224-7CDA-4E0F-98FD-5A9CFB43B83E}|lab14_ThemesWPF\\lab14_ThemesWPF.csproj|d:\\bsu\\svpp\\project\\wpf\\wpfpart1\\lab14_stylesdemo\\lab14_themeswpf\\dark.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{0426E224-7CDA-4E0F-98FD-5A9CFB43B83E}|lab14_ThemesWPF\\lab14_ThemesWPF.csproj|solutionrelative:lab14_themeswpf\\dark.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0426E224-7CDA-4E0F-98FD-5A9CFB43B83E}|lab14_ThemesWPF\\lab14_ThemesWPF.csproj|d:\\bsu\\svpp\\project\\wpf\\wpfpart1\\lab14_stylesdemo\\lab14_themeswpf\\light.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{0426E224-7CDA-4E0F-98FD-5A9CFB43B83E}|lab14_ThemesWPF\\lab14_ThemesWPF.csproj|solutionrelative:lab14_themeswpf\\light.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+      "AbsoluteMoniker": "D:0:0:{2A4860BB-56C7-4C9A-A27E-38C9C4D8F6DC}|..\\lab12\\StudentCard\\StudentCard.csproj|d:\\bsu\\svpp\\project\\wpf\\wpfpart1\\lab12\\studentcard\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     }
   ],
   "DocumentGroupContainers": [
@@ -34,79 +22,56 @@
       "DocumentGroups": [
         {
           "DockedWidth": 274,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "App.xaml",
-              "DocumentMoniker": "D:\\BSU\\SVPP\\project\\WPF\\WpfPart1\\lab14_StylesDemo\\lab14_ThemesWPF\\App.xaml",
-              "RelativeDocumentMoniker": "lab14_ThemesWPF\\App.xaml",
-              "ToolTip": "D:\\BSU\\SVPP\\project\\WPF\\WpfPart1\\lab14_StylesDemo\\lab14_ThemesWPF\\App.xaml",
-              "RelativeToolTip": "lab14_ThemesWPF\\App.xaml",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2026-01-06T21:42:31.296Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "green.xaml",
-              "DocumentMoniker": "D:\\BSU\\SVPP\\project\\WPF\\WpfPart1\\lab14_StylesDemo\\lab14_ThemesWPF\\green.xaml",
-              "RelativeDocumentMoniker": "lab14_ThemesWPF\\green.xaml",
-              "ToolTip": "D:\\BSU\\SVPP\\project\\WPF\\WpfPart1\\lab14_StylesDemo\\lab14_ThemesWPF\\green.xaml",
-              "RelativeToolTip": "lab14_ThemesWPF\\green.xaml",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2026-01-06T21:40:05.917Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "dark.xaml",
-              "DocumentMoniker": "D:\\BSU\\SVPP\\project\\WPF\\WpfPart1\\lab14_StylesDemo\\lab14_ThemesWPF\\dark.xaml",
-              "RelativeDocumentMoniker": "lab14_ThemesWPF\\dark.xaml",
-              "ToolTip": "D:\\BSU\\SVPP\\project\\WPF\\WpfPart1\\lab14_StylesDemo\\lab14_ThemesWPF\\dark.xaml",
-              "RelativeToolTip": "lab14_ThemesWPF\\dark.xaml",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2026-01-06T21:39:52.33Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "light.xaml",
-              "DocumentMoniker": "D:\\BSU\\SVPP\\project\\WPF\\WpfPart1\\lab14_StylesDemo\\lab14_ThemesWPF\\light.xaml",
-              "RelativeDocumentMoniker": "lab14_ThemesWPF\\light.xaml",
-              "ToolTip": "D:\\BSU\\SVPP\\project\\WPF\\WpfPart1\\lab14_StylesDemo\\lab14_ThemesWPF\\light.xaml",
-              "RelativeToolTip": "lab14_ThemesWPF\\light.xaml",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2026-01-06T21:38:09.718Z",
+              "DocumentIndex": 1,
+              "Title": "App.xaml.cs",
+              "DocumentMoniker": "D:\\BSU\\SVPP\\project\\WPF\\WpfPart1\\lab12\\StudentCard\\App.xaml.cs",
+              "RelativeDocumentMoniker": "..\\lab12\\StudentCard\\App.xaml.cs",
+              "ToolTip": "D:\\BSU\\SVPP\\project\\WPF\\WpfPart1\\lab12\\StudentCard\\App.xaml.cs",
+              "RelativeToolTip": "..\\lab12\\StudentCard\\App.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-06T23:37:17.637Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "MainWindow.xaml",
-              "DocumentMoniker": "D:\\BSU\\SVPP\\project\\WPF\\WpfPart1\\lab14_StylesDemo\\lab14_ThemesWPF\\MainWindow.xaml",
-              "RelativeDocumentMoniker": "lab14_ThemesWPF\\MainWindow.xaml",
-              "ToolTip": "D:\\BSU\\SVPP\\project\\WPF\\WpfPart1\\lab14_StylesDemo\\lab14_ThemesWPF\\MainWindow.xaml",
-              "RelativeToolTip": "lab14_ThemesWPF\\MainWindow.xaml",
+              "Title": "App.xaml",
+              "DocumentMoniker": "D:\\BSU\\SVPP\\project\\WPF\\WpfPart1\\lab12\\StudentCard\\App.xaml",
+              "RelativeDocumentMoniker": "..\\lab12\\StudentCard\\App.xaml",
+              "ToolTip": "D:\\BSU\\SVPP\\project\\WPF\\WpfPart1\\lab12\\StudentCard\\App.xaml",
+              "RelativeToolTip": "..\\lab12\\StudentCard\\App.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2026-01-06T21:35:21.361Z",
+              "WhenOpened": "2026-01-06T23:03:20.114Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "MainWindow.xaml.cs",
-              "DocumentMoniker": "D:\\BSU\\SVPP\\project\\WPF\\WpfPart1\\lab14_StylesDemo\\lab14_ThemesWPF\\MainWindow.xaml.cs",
-              "RelativeDocumentMoniker": "lab14_ThemesWPF\\MainWindow.xaml.cs",
-              "ToolTip": "D:\\BSU\\SVPP\\project\\WPF\\WpfPart1\\lab14_StylesDemo\\lab14_ThemesWPF\\MainWindow.xaml.cs",
-              "RelativeToolTip": "lab14_ThemesWPF\\MainWindow.xaml.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABwAAAAvAAAAAAAAAA==",
+              "DocumentMoniker": "D:\\BSU\\SVPP\\project\\WPF\\WpfPart1\\lab12\\StudentCard\\MainWindow.xaml.cs",
+              "RelativeDocumentMoniker": "..\\lab12\\StudentCard\\MainWindow.xaml.cs",
+              "ToolTip": "D:\\BSU\\SVPP\\project\\WPF\\WpfPart1\\lab12\\StudentCard\\MainWindow.xaml.cs",
+              "RelativeToolTip": "..\\lab12\\StudentCard\\MainWindow.xaml.cs",
+              "ViewState": "AgIAAC0AAAAAAAAAAAAowBcAAAANAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-06T21:35:21.273Z",
+              "WhenOpened": "2026-01-06T22:52:21.186Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "MainWindow.xaml",
+              "DocumentMoniker": "D:\\BSU\\SVPP\\project\\WPF\\WpfPart1\\lab12\\StudentCard\\MainWindow.xaml",
+              "RelativeDocumentMoniker": "..\\lab12\\StudentCard\\MainWindow.xaml",
+              "ToolTip": "D:\\BSU\\SVPP\\project\\WPF\\WpfPart1\\lab12\\StudentCard\\MainWindow.xaml",
+              "RelativeToolTip": "..\\lab12\\StudentCard\\MainWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-01-06T22:51:59.831Z",
               "EditorCaption": ""
             }
           ]
