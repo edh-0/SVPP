@@ -1,0 +1,16 @@
+D:\BSU\SVPP\project\WPF\WpfPart2\lab21_MyDateBinding\MyBindingArgumentXAML\bin\Debug\MyBindingArgumentXAML.exe.config
+D:\BSU\SVPP\project\WPF\WpfPart2\lab21_MyDateBinding\MyBindingArgumentXAML\bin\Debug\MyBindingArgumentXAML.exe
+D:\BSU\SVPP\project\WPF\WpfPart2\lab21_MyDateBinding\MyBindingArgumentXAML\bin\Debug\MyBindingArgumentXAML.pdb
+D:\BSU\SVPP\project\WPF\WpfPart2\lab21_MyDateBinding\MyBindingArgumentXAML\obj\Debug\MyBindingArgumentXAML.csproj.AssemblyReference.cache
+D:\BSU\SVPP\project\WPF\WpfPart2\lab21_MyDateBinding\MyBindingArgumentXAML\obj\Debug\MainWindow.g.cs
+D:\BSU\SVPP\project\WPF\WpfPart2\lab21_MyDateBinding\MyBindingArgumentXAML\obj\Debug\App.g.cs
+D:\BSU\SVPP\project\WPF\WpfPart2\lab21_MyDateBinding\MyBindingArgumentXAML\obj\Debug\MyBindingArgumentXAML_MarkupCompile.cache
+D:\BSU\SVPP\project\WPF\WpfPart2\lab21_MyDateBinding\MyBindingArgumentXAML\obj\Debug\MyBindingArgumentXAML_MarkupCompile.lref
+D:\BSU\SVPP\project\WPF\WpfPart2\lab21_MyDateBinding\MyBindingArgumentXAML\obj\Debug\MainWindow.baml
+D:\BSU\SVPP\project\WPF\WpfPart2\lab21_MyDateBinding\MyBindingArgumentXAML\obj\Debug\MyBindingArgumentXAML.g.resources
+D:\BSU\SVPP\project\WPF\WpfPart2\lab21_MyDateBinding\MyBindingArgumentXAML\obj\Debug\MyBindingArgumentXAML.Properties.Resources.resources
+D:\BSU\SVPP\project\WPF\WpfPart2\lab21_MyDateBinding\MyBindingArgumentXAML\obj\Debug\MyBindingArgumentXAML.csproj.GenerateResource.cache
+D:\BSU\SVPP\project\WPF\WpfPart2\lab21_MyDateBinding\MyBindingArgumentXAML\obj\Debug\MyBindingArgumentXAML.csproj.CoreCompileInputs.cache
+D:\BSU\SVPP\project\WPF\WpfPart2\lab21_MyDateBinding\MyBindingArgumentXAML\obj\Debug\MyBindingArgumentXAML.exe
+D:\BSU\SVPP\project\WPF\WpfPart2\lab21_MyDateBinding\MyBindingArgumentXAML\obj\Debug\MyBindingArgumentXAML.pdb
+D:\BSU\SVPP\project\WPF\WpfPart2\lab21_MyDateBinding\MyBindingArgumentXAML\obj\Debug\MyBindingArgumentXAML.exe.config
