@@ -1,0 +1,15 @@
+D:\BSU\SVPP\project\WPF\WpfPart2\lab22\lab22ex1\bin\Debug\lab22ex1.exe.config
+D:\BSU\SVPP\project\WPF\WpfPart2\lab22\lab22ex1\bin\Debug\lab22ex1.exe
+D:\BSU\SVPP\project\WPF\WpfPart2\lab22\lab22ex1\bin\Debug\lab22ex1.pdb
+D:\BSU\SVPP\project\WPF\WpfPart2\lab22\lab22ex1\obj\Debug\lab22ex1.csproj.AssemblyReference.cache
+D:\BSU\SVPP\project\WPF\WpfPart2\lab22\lab22ex1\obj\Debug\MainWindow.g.cs
+D:\BSU\SVPP\project\WPF\WpfPart2\lab22\lab22ex1\obj\Debug\App.g.cs
+D:\BSU\SVPP\project\WPF\WpfPart2\lab22\lab22ex1\obj\Debug\lab22ex1_MarkupCompile.cache
+D:\BSU\SVPP\project\WPF\WpfPart2\lab22\lab22ex1\obj\Debug\lab22ex1_MarkupCompile.lref
+D:\BSU\SVPP\project\WPF\WpfPart2\lab22\lab22ex1\obj\Debug\MainWindow.baml
+D:\BSU\SVPP\project\WPF\WpfPart2\lab22\lab22ex1\obj\Debug\lab22ex1.g.resources
+D:\BSU\SVPP\project\WPF\WpfPart2\lab22\lab22ex1\obj\Debug\lab22ex1.Properties.Resources.resources
+D:\BSU\SVPP\project\WPF\WpfPart2\lab22\lab22ex1\obj\Debug\lab22ex1.csproj.GenerateResource.cache
+D:\BSU\SVPP\project\WPF\WpfPart2\lab22\lab22ex1\obj\Debug\lab22ex1.csproj.CoreCompileInputs.cache
+D:\BSU\SVPP\project\WPF\WpfPart2\lab22\lab22ex1\obj\Debug\lab22ex1.exe
+D:\BSU\SVPP\project\WPF\WpfPart2\lab22\lab22ex1\obj\Debug\lab22ex1.pdb

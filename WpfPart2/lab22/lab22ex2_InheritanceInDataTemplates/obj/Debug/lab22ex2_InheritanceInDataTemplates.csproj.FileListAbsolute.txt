@@ -1,0 +1,16 @@
+D:\BSU\SVPP\project\WPF\WpfPart2\lab22\lab22ex2_InheritanceInDataTemplates\obj\Debug\lab22ex2_InheritanceInDataTemplates.csproj.AssemblyReference.cache
+D:\BSU\SVPP\project\WPF\WpfPart2\lab22\lab22ex2_InheritanceInDataTemplates\obj\Debug\MainWindow.g.cs
+D:\BSU\SVPP\project\WPF\WpfPart2\lab22\lab22ex2_InheritanceInDataTemplates\obj\Debug\App.g.cs
+D:\BSU\SVPP\project\WPF\WpfPart2\lab22\lab22ex2_InheritanceInDataTemplates\obj\Debug\GeneratedInternalTypeHelper.g.cs
+D:\BSU\SVPP\project\WPF\WpfPart2\lab22\lab22ex2_InheritanceInDataTemplates\obj\Debug\lab22ex2_InheritanceInDataTemplates_MarkupCompile.cache
+D:\BSU\SVPP\project\WPF\WpfPart2\lab22\lab22ex2_InheritanceInDataTemplates\obj\Debug\lab22ex2_InheritanceInDataTemplates_MarkupCompile.lref
+D:\BSU\SVPP\project\WPF\WpfPart2\lab22\lab22ex2_InheritanceInDataTemplates\bin\Debug\lab22ex2_InheritanceInDataTemplates.exe.config
+D:\BSU\SVPP\project\WPF\WpfPart2\lab22\lab22ex2_InheritanceInDataTemplates\bin\Debug\lab22ex2_InheritanceInDataTemplates.exe
+D:\BSU\SVPP\project\WPF\WpfPart2\lab22\lab22ex2_InheritanceInDataTemplates\bin\Debug\lab22ex2_InheritanceInDataTemplates.pdb
+D:\BSU\SVPP\project\WPF\WpfPart2\lab22\lab22ex2_InheritanceInDataTemplates\obj\Debug\MainWindow.baml
+D:\BSU\SVPP\project\WPF\WpfPart2\lab22\lab22ex2_InheritanceInDataTemplates\obj\Debug\lab22ex2_InheritanceInDataTemplates.g.resources
+D:\BSU\SVPP\project\WPF\WpfPart2\lab22\lab22ex2_InheritanceInDataTemplates\obj\Debug\lab22ex2_InheritanceInDataTemplates.Properties.Resources.resources
+D:\BSU\SVPP\project\WPF\WpfPart2\lab22\lab22ex2_InheritanceInDataTemplates\obj\Debug\lab22ex2_InheritanceInDataTemplates.csproj.GenerateResource.cache
+D:\BSU\SVPP\project\WPF\WpfPart2\lab22\lab22ex2_InheritanceInDataTemplates\obj\Debug\lab22ex2_InheritanceInDataTemplates.csproj.CoreCompileInputs.cache
+D:\BSU\SVPP\project\WPF\WpfPart2\lab22\lab22ex2_InheritanceInDataTemplates\obj\Debug\lab22ex2_InheritanceInDataTemplates.exe
+D:\BSU\SVPP\project\WPF\WpfPart2\lab22\lab22ex2_InheritanceInDataTemplates\obj\Debug\lab22ex2_InheritanceInDataTemplates.pdb

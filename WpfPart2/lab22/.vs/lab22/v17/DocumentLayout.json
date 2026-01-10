@@ -1,0 +1,86 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\BSU\\SVPP\\project\\WPF\\WpfPart2\\lab22\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{8A6B65C0-1F79-4337-8C5F-29406E331B55}|lab22ex2_InheritanceInDataTemplates\\lab22ex2_InheritanceInDataTemplates.csproj|d:\\bsu\\svpp\\project\\wpf\\wpfpart2\\lab22\\lab22ex2_inheritanceindatatemplates\\myclassdiagram.cd||{59B0B277-7DDF-4E36-A3ED-02DAC5B9E2FA}|",
+      "RelativeMoniker": "D:0:0:{8A6B65C0-1F79-4337-8C5F-29406E331B55}|lab22ex2_InheritanceInDataTemplates\\lab22ex2_InheritanceInDataTemplates.csproj|solutionrelative:lab22ex2_inheritanceindatatemplates\\myclassdiagram.cd||{59B0B277-7DDF-4E36-A3ED-02DAC5B9E2FA}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8A6B65C0-1F79-4337-8C5F-29406E331B55}|lab22ex2_InheritanceInDataTemplates\\lab22ex2_InheritanceInDataTemplates.csproj|d:\\bsu\\svpp\\project\\wpf\\wpfpart2\\lab22\\lab22ex2_inheritanceindatatemplates\\vehicle.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8A6B65C0-1F79-4337-8C5F-29406E331B55}|lab22ex2_InheritanceInDataTemplates\\lab22ex2_InheritanceInDataTemplates.csproj|solutionrelative:lab22ex2_inheritanceindatatemplates\\vehicle.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8A6B65C0-1F79-4337-8C5F-29406E331B55}|lab22ex2_InheritanceInDataTemplates\\lab22ex2_InheritanceInDataTemplates.csproj|d:\\bsu\\svpp\\project\\wpf\\wpfpart2\\lab22\\lab22ex2_inheritanceindatatemplates\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8A6B65C0-1F79-4337-8C5F-29406E331B55}|lab22ex2_InheritanceInDataTemplates\\lab22ex2_InheritanceInDataTemplates.csproj|solutionrelative:lab22ex2_inheritanceindatatemplates\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8A6B65C0-1F79-4337-8C5F-29406E331B55}|lab22ex2_InheritanceInDataTemplates\\lab22ex2_InheritanceInDataTemplates.csproj|d:\\bsu\\svpp\\project\\wpf\\wpfpart2\\lab22\\lab22ex2_inheritanceindatatemplates\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{8A6B65C0-1F79-4337-8C5F-29406E331B55}|lab22ex2_InheritanceInDataTemplates\\lab22ex2_InheritanceInDataTemplates.csproj|solutionrelative:lab22ex2_inheritanceindatatemplates\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 274,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "MyClassDiagram.cd",
+              "DocumentMoniker": "D:\\BSU\\SVPP\\project\\WPF\\WpfPart2\\lab22\\lab22ex2_InheritanceInDataTemplates\\MyClassDiagram.cd",
+              "RelativeDocumentMoniker": "lab22ex2_InheritanceInDataTemplates\\MyClassDiagram.cd",
+              "ToolTip": "D:\\BSU\\SVPP\\project\\WPF\\WpfPart2\\lab22\\lab22ex2_InheritanceInDataTemplates\\MyClassDiagram.cd",
+              "RelativeToolTip": "lab22ex2_InheritanceInDataTemplates\\MyClassDiagram.cd",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000463|",
+              "WhenOpened": "2026-01-10T14:04:13.55Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "MainWindow.xaml.cs",
+              "DocumentMoniker": "D:\\BSU\\SVPP\\project\\WPF\\WpfPart2\\lab22\\lab22ex2_InheritanceInDataTemplates\\MainWindow.xaml.cs",
+              "RelativeDocumentMoniker": "lab22ex2_InheritanceInDataTemplates\\MainWindow.xaml.cs",
+              "ToolTip": "D:\\BSU\\SVPP\\project\\WPF\\WpfPart2\\lab22\\lab22ex2_InheritanceInDataTemplates\\MainWindow.xaml.cs",
+              "RelativeToolTip": "lab22ex2_InheritanceInDataTemplates\\MainWindow.xaml.cs",
+              "ViewState": "AgIAAFYAAAAAAAAAAAAAwIYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-10T13:34:07.482Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Vehicle.cs",
+              "DocumentMoniker": "D:\\BSU\\SVPP\\project\\WPF\\WpfPart2\\lab22\\lab22ex2_InheritanceInDataTemplates\\Vehicle.cs",
+              "RelativeDocumentMoniker": "lab22ex2_InheritanceInDataTemplates\\Vehicle.cs",
+              "ToolTip": "D:\\BSU\\SVPP\\project\\WPF\\WpfPart2\\lab22\\lab22ex2_InheritanceInDataTemplates\\Vehicle.cs",
+              "RelativeToolTip": "lab22ex2_InheritanceInDataTemplates\\Vehicle.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABcAAAAlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-10T13:29:18.159Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "MainWindow.xaml",
+              "DocumentMoniker": "D:\\BSU\\SVPP\\project\\WPF\\WpfPart2\\lab22\\lab22ex2_InheritanceInDataTemplates\\MainWindow.xaml",
+              "RelativeDocumentMoniker": "lab22ex2_InheritanceInDataTemplates\\MainWindow.xaml",
+              "ToolTip": "D:\\BSU\\SVPP\\project\\WPF\\WpfPart2\\lab22\\lab22ex2_InheritanceInDataTemplates\\MainWindow.xaml",
+              "RelativeToolTip": "lab22ex2_InheritanceInDataTemplates\\MainWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-01-10T13:26:23.552Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
