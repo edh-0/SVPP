@@ -1,0 +1,16 @@
+D:\BSU\SVPP\project\WPF\WpfPart2\lab21_MyDateBinding\MyBindingCodeBehind\bin\Debug\MyBindingCodeBehind.exe.config
+D:\BSU\SVPP\project\WPF\WpfPart2\lab21_MyDateBinding\MyBindingCodeBehind\bin\Debug\MyBindingCodeBehind.exe
+D:\BSU\SVPP\project\WPF\WpfPart2\lab21_MyDateBinding\MyBindingCodeBehind\bin\Debug\MyBindingCodeBehind.pdb
+D:\BSU\SVPP\project\WPF\WpfPart2\lab21_MyDateBinding\MyBindingCodeBehind\obj\Debug\MyBindingCodeBehind.csproj.AssemblyReference.cache
+D:\BSU\SVPP\project\WPF\WpfPart2\lab21_MyDateBinding\MyBindingCodeBehind\obj\Debug\MainWindow.g.cs
+D:\BSU\SVPP\project\WPF\WpfPart2\lab21_MyDateBinding\MyBindingCodeBehind\obj\Debug\App.g.cs
+D:\BSU\SVPP\project\WPF\WpfPart2\lab21_MyDateBinding\MyBindingCodeBehind\obj\Debug\MyBindingCodeBehind_MarkupCompile.cache
+D:\BSU\SVPP\project\WPF\WpfPart2\lab21_MyDateBinding\MyBindingCodeBehind\obj\Debug\MyBindingCodeBehind_MarkupCompile.lref
+D:\BSU\SVPP\project\WPF\WpfPart2\lab21_MyDateBinding\MyBindingCodeBehind\obj\Debug\MainWindow.baml
+D:\BSU\SVPP\project\WPF\WpfPart2\lab21_MyDateBinding\MyBindingCodeBehind\obj\Debug\MyBindingCodeBehind.g.resources
+D:\BSU\SVPP\project\WPF\WpfPart2\lab21_MyDateBinding\MyBindingCodeBehind\obj\Debug\MyBindingCodeBehind.Properties.Resources.resources
+D:\BSU\SVPP\project\WPF\WpfPart2\lab21_MyDateBinding\MyBindingCodeBehind\obj\Debug\MyBindingCodeBehind.csproj.GenerateResource.cache
+D:\BSU\SVPP\project\WPF\WpfPart2\lab21_MyDateBinding\MyBindingCodeBehind\obj\Debug\MyBindingCodeBehind.csproj.CoreCompileInputs.cache
+D:\BSU\SVPP\project\WPF\WpfPart2\lab21_MyDateBinding\MyBindingCodeBehind\obj\Debug\MyBindingCodeBehind.exe
+D:\BSU\SVPP\project\WPF\WpfPart2\lab21_MyDateBinding\MyBindingCodeBehind\obj\Debug\MyBindingCodeBehind.pdb
+D:\BSU\SVPP\project\WPF\WpfPart2\lab21_MyDateBinding\MyBindingCodeBehind\obj\Debug\MyBindingCodeBehind.exe.config
