@@ -1,0 +1,85 @@
+﻿<Window x:Class="ex2_DContext.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:ex2_DContext"
+        mc:Ignorable="d"
+        Title="Многоуровневое наследование DataContext" Height="500" Width="800">
+    <Grid>
+        <ScrollViewer>
+            <Grid>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="Auto"/>
+                    <ColumnDefinition Width="*"/>
+                </Grid.ColumnDefinitions>
+                <StackPanel Margin="20">
+                    <TextBlock Text="УРОВЕНЬ 1: Данные магазина (ShopData)"/>
+                    <StackPanel Margin="10,0,0,0">
+                        <TextBlock Text="Название магазина:"/>
+                        <TextBlock Text="{Binding ShopName}"/>
+                        <TextBlock Text="Адрес магазина:"/>
+                        <TextBlock Text="{Binding Address}"/>
+                    </StackPanel>
+                    <Rectangle Height="1" Fill="LightGray" Margin="0,15,0,15"/>
+                    <Border DataContext="{Binding CurrentDepartment}">
+                        <StackPanel>
+                            <TextBlock Text="УРОВЕНЬ 2: Данные отдела (DepartmentData)"/>
+                            <StackPanel Margin="5,0,0,0">
+                                <TextBlock Text="Название отдела:"/>
+                                <TextBlock Text="{Binding DepartmentName}"/>
+                                <TextBlock Text="Менеджер:"/>
+                                <TextBlock Text="{Binding Manager}"/>
+                            </StackPanel>
+                            <Rectangle Height="1" Fill="LightBlue" Margin="0,10,0,10"/>
+                            <Border DataContext="{Binding CurrentProduct}">
+                                <StackPanel>
+                                    <TextBlock Text="УРОВЕНЬ 3: Данные товара (ProductData)"/>
+                                    <StackPanel Margin="5,0,0,0">
+                                        <TextBlock Text="Название товара:"/>
+                                        <TextBlock Text="{Binding ProductName}"/>
+                                        <TextBlock Text="Цена:"/>
+                                        <TextBlock Text="{Binding Price, StringFormat='{}{0:C}'}"/>
+                                    </StackPanel>
+                                </StackPanel>
+                            </Border>
+                            <Rectangle Height="1" Fill="LightBlue" Margin="0,5,0,5"/>
+                            <TextBlock Text="ВОЗВРАТ К УРОВНЮ 2: Снова DepartmentData"/>
+                            <StackPanel Margin="5,0,0,0">
+                                <TextBlock Text="Проверка наследования - отдел:"/>
+                                <TextBlock Text="{Binding DepartmentName}"/>
+                            </StackPanel>
+                        </StackPanel>
+                    </Border>
+                    <Rectangle Height="1" Fill="LightGray" Margin="0,15,0,15"/>
+                    <TextBlock Text="ВОЗВРАТ К УРОВНЮ 1: Снова ShopData"/>
+                    <StackPanel Margin="10,0,0,0">
+                        <TextBlock Text="Проверка наследования - адрес магазина:"/>
+                        <TextBlock Text="{Binding Address}"/>
+                    </StackPanel>
+                    <Rectangle Height="2" Fill="Gray" Margin="0,20,0,15"/>
+                </StackPanel>
+                <StackPanel Grid.Column="1">
+                    <TextBlock Text="ТЕСТИРОВАНИЕ ИЗМЕНЕНИЙ ДАННЫХ" FontWeight="Bold" FontSize="14" Foreground="Purple" Margin="0,0,0,15" HorizontalAlignment="Center"/>
+                    <StackPanel>
+                        <TextBlock Text="Нажмите кнопки, чтобы изменить данные на разных уровнях:" Margin="0,0,0,10" TextWrapping="Wrap"/>
+                        <Button x:Name="ChangeShopButton" Content="Изменить данные магазина (Уровень 1)" Click="ChangeShopButton_Click"/>
+                        <Button x:Name="ChangeDepartmentButton" Content="Изменить данные отдела (Уровень 2)" Click="ChangeDepartmentButton_Click"/>
+                        <Button x:Name="ChangeProductButton" Content="Изменить данные товара (Уровень 3)" Click="ChangeProductButton_Click"/>
+                        <Button x:Name="ResetAllButton" Content="Сбросить все данные к исходным" Click="ResetAllButton_Click"/>
+                    </StackPanel>
+                    <Border BorderBrush="LightGreen" BorderThickness="1" Background="#F0FFF0" Margin="0,15,0,0" Padding="10">
+                        <StackPanel>
+                            <TextBlock Text="Как это работает:" FontWeight="Bold" Margin="0,0,0,5"/>
+                            <TextBlock Text="• Уровень 1: DataContext окна = ShopData" Margin="5,0,0,2"/>
+                            <TextBlock Text="• Уровень 2: Border переопределяет DataContext на DepartmentData" Margin="5,0,0,2"/>
+                            <TextBlock Text="• Уровень 3: Внутренний Border переопределяет DataContext на ProductData" Margin="5,0,0,2"/>
+                            <TextBlock Text="• После каждого переопределения происходит возврат к родительскому контексту" Margin="5,0,0,2"/>
+                            <TextBlock Text="• INotifyPropertyChanged обеспечивает автоматическое обновление интерфейса" Margin="5,0,0,0"/>
+                        </StackPanel>
+                    </Border>
+                </StackPanel>
+            </Grid>
+        </ScrollViewer>
+    </Grid>
+</Window>

@@ -1,0 +1,73 @@
+﻿<Window x:Class="ex3_FormattingConvertersBinding.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:ex3_FormattingConvertersBinding"
+        xmlns:converters="clr-namespace:ex3_FormattingConvertersBinding.Converters"
+        mc:Ignorable="d"
+        Title="Форматирование и конвертеры" Height="450" Width="800">
+    <Window.Resources>
+        <converters:TemperatureConverter x:Key="TemperatureConverter"/>
+        <converters:BoolToVisibilityConverter x:Key="BoolToVisibilityConverter"/>
+        <converters:PriceConverter x:Key="PriceConverter"/>
+    </Window.Resources>
+    <Grid Margin="15">
+        <TabControl>
+            <TabItem Header="1. Конвертеры">
+                <ScrollViewer>
+                    <StackPanel Margin="15">
+                        <TextBlock Text="Пользовательские конвертеры (как общий ресурс)" FontSize="16" FontWeight="Bold" Margin="0,0,0,15"/>
+                        <GroupBox Header="Конвертер температуры" Margin="0,0,0,15">
+                            <StackPanel Margin="10">
+                                <Slider x:Name="tempSlider" Minimum="-50" Maximum="50" Value="0" Margin="0,0,0,10"/>
+                                <TextBlock HorizontalAlignment="Center" FontSize="14"><Run Text="Цельсия: "/><Run Text="{Binding ElementName=tempSlider, Path=Value}"/>°C</TextBlock>
+                                <TextBlock HorizontalAlignment="Center" FontSize="14"><Run Text="Фаренгейт: "/><Run Text="{Binding ElementName=tempSlider, Path=Value, Converter={StaticResource TemperatureConverter}, ConverterParameter=F}"/>°F</TextBlock>
+                                <TextBlock HorizontalAlignment="Center" FontSize="14"><Run Text="Кельвин: "/><Run Text="{Binding ElementName=tempSlider, Path=Value, Converter={StaticResource TemperatureConverter}, ConverterParameter=K}"/>K</TextBlock>
+                            </StackPanel>
+                        </GroupBox>
+                        <GroupBox Header="Конвертер Boolean в Visibility" Margin="0,0,0,15">
+                            <StackPanel Margin="10">
+                                <CheckBox x:Name="showDetailsCheckBox" Content="Показать детали" IsChecked="True" Margin="0,0,0,10"/>
+                                <Border Background="LightBlue" Padding="10" CornerRadius="5" Visibility="{Binding ElementName=showDetailsCheckBox, Path=IsChecked, Converter={StaticResource BoolToVisibilityConverter}}">
+                                    <TextBlock Text="Эти детали видны только когда чекбокс отмечен" TextWrapping="Wrap"/>
+                                </Border>
+                            </StackPanel>
+                        </GroupBox>
+                        <GroupBox Header="Конвертер цены">
+                            <StackPanel Margin="10">
+                                <Slider x:Name="priceSlider" Minimum="0" Maximum="1000" Value="100" Margin="0,0,0,10"/>
+                                <TextBlock HorizontalAlignment="Center" FontSize="14"><Run Text="Цена: "/><Run Text="{Binding ElementName=priceSlider, Path=Value, Converter={StaticResource PriceConverter}}"/></TextBlock>
+                                <TextBlock HorizontalAlignment="Center" FontSize="12" Foreground="Gray">(Конвертер добавляет валюту и округляет до 2 знаков)</TextBlock>
+                            </StackPanel>
+                        </GroupBox>
+                        <TextBlock Text="Комбинированное использование" FontSize="16" FontWeight="Bold" Margin="0,0,0,15"/>
+                        <GroupBox Header="Прогресс выполнения (формат определяет свойство StringFormat)" Margin="0,0,0,15">
+                            <StackPanel Margin="10">
+                                <Slider x:Name="progressSlider" Minimum="0" Maximum="100" Value="75" Margin="0,0,0,10"/>
+                                <ProgressBar Value="{Binding ElementName=progressSlider, Path=Value}" Height="20" Margin="0,0,0,5"/>
+                                <TextBlock HorizontalAlignment="Center" FontSize="14"><Run Text="Выполнено: "/><Run Text="{Binding ElementName=progressSlider, Path=Value, StringFormat={}{0:F1}%}"/></TextBlock>
+                            </StackPanel>
+                        </GroupBox>
+                        <GroupBox Header="Статус системы (Локальное применение конвертеров)">
+                            <StackPanel Margin="10">
+                                <CheckBox x:Name="systemOnlineCheckBox" Content="Система онлайн" IsChecked="True" Margin="0,0,0,10"/>
+                                <Border Padding="10" CornerRadius="5">
+                                    <Border.Background>
+                                        <Binding ElementName="systemOnlineCheckBox" Path="IsChecked">
+                                            <Binding.Converter>
+                                                <converters:BoolToColorConverter/>
+                                            </Binding.Converter>
+                                        </Binding>
+                                    </Border.Background>
+                                    <TextBlock HorizontalAlignment="Center" FontWeight="Bold"><Run Text="Статус: "/><Run><Run.Text><Binding ElementName="systemOnlineCheckBox" Path="IsChecked"><Binding.Converter><converters:BoolToStatusConverter/></Binding.Converter></Binding></Run.Text></Run></TextBlock>
+                                </Border>
+                                <TextBlock Text="Используются два конвертера одновременно: BoolToColorConverter для фона и BoolToStatusConverter для текста" TextWrapping="Wrap" FontSize="11" FontStyle="Italic" Margin="0,10,0,0"/>
+                            </StackPanel>
+                        </GroupBox>
+                    </StackPanel>
+                </ScrollViewer>
+            </TabItem>
+        </TabControl>
+    </Grid>
+</Window>

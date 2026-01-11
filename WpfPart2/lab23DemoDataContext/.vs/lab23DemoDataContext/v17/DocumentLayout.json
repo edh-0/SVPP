@@ -1,0 +1,53 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\BSU\\SVPP\\project\\WPF\\WpfPart2\\lab23DemoDataContext\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{B98346D9-267E-495E-B2E6-5E6681A00494}|ex3_FormattingConvertersBinding\\ex3_FormattingConvertersBinding.csproj|d:\\bsu\\svpp\\project\\wpf\\wpfpart2\\lab23demodatacontext\\ex3_formattingconvertersbinding\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{B98346D9-267E-495E-B2E6-5E6681A00494}|ex3_FormattingConvertersBinding\\ex3_FormattingConvertersBinding.csproj|solutionrelative:ex3_formattingconvertersbinding\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B98346D9-267E-495E-B2E6-5E6681A00494}|ex3_FormattingConvertersBinding\\ex3_FormattingConvertersBinding.csproj|d:\\bsu\\svpp\\project\\wpf\\wpfpart2\\lab23demodatacontext\\ex3_formattingconvertersbinding\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B98346D9-267E-495E-B2E6-5E6681A00494}|ex3_FormattingConvertersBinding\\ex3_FormattingConvertersBinding.csproj|solutionrelative:ex3_formattingconvertersbinding\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 274,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "MainWindow.xaml",
+              "DocumentMoniker": "D:\\BSU\\SVPP\\project\\WPF\\WpfPart2\\lab23DemoDataContext\\ex3_FormattingConvertersBinding\\MainWindow.xaml",
+              "RelativeDocumentMoniker": "ex3_FormattingConvertersBinding\\MainWindow.xaml",
+              "ToolTip": "D:\\BSU\\SVPP\\project\\WPF\\WpfPart2\\lab23DemoDataContext\\ex3_FormattingConvertersBinding\\MainWindow.xaml",
+              "RelativeToolTip": "ex3_FormattingConvertersBinding\\MainWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-01-11T13:08:17.693Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "MainWindow.xaml.cs",
+              "DocumentMoniker": "D:\\BSU\\SVPP\\project\\WPF\\WpfPart2\\lab23DemoDataContext\\ex3_FormattingConvertersBinding\\MainWindow.xaml.cs",
+              "RelativeDocumentMoniker": "ex3_FormattingConvertersBinding\\MainWindow.xaml.cs",
+              "ToolTip": "D:\\BSU\\SVPP\\project\\WPF\\WpfPart2\\lab23DemoDataContext\\ex3_FormattingConvertersBinding\\MainWindow.xaml.cs",
+              "RelativeToolTip": "ex3_FormattingConvertersBinding\\MainWindow.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-11T13:05:43.951Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

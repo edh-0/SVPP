@@ -1,0 +1,17 @@
+D:\BSU\SVPP\project\WPF\WpfPart2\lab23DemoDataContext\ex3_BindingFormatting\obj\Debug\ex3_BindingFormatting.csproj.AssemblyReference.cache
+D:\BSU\SVPP\project\WPF\WpfPart2\lab23DemoDataContext\ex3_BindingFormatting\obj\Debug\MainWindow.g.cs
+D:\BSU\SVPP\project\WPF\WpfPart2\lab23DemoDataContext\ex3_BindingFormatting\obj\Debug\App.g.cs
+D:\BSU\SVPP\project\WPF\WpfPart2\lab23DemoDataContext\ex3_BindingFormatting\obj\Debug\ex3_BindingFormatting_MarkupCompile.cache
+D:\BSU\SVPP\project\WPF\WpfPart2\lab23DemoDataContext\ex3_BindingFormatting\obj\Debug\ex3_BindingFormatting_MarkupCompile.lref
+D:\BSU\SVPP\project\WPF\WpfPart2\lab23DemoDataContext\ex3_BindingFormatting\bin\Debug\ex3_BindingFormatting.exe.config
+D:\BSU\SVPP\project\WPF\WpfPart2\lab23DemoDataContext\ex3_BindingFormatting\bin\Debug\ex3_BindingFormatting.exe
+D:\BSU\SVPP\project\WPF\WpfPart2\lab23DemoDataContext\ex3_BindingFormatting\bin\Debug\ex3_BindingFormatting.pdb
+D:\BSU\SVPP\project\WPF\WpfPart2\lab23DemoDataContext\ex3_BindingFormatting\obj\Debug\MainWindow.baml
+D:\BSU\SVPP\project\WPF\WpfPart2\lab23DemoDataContext\ex3_BindingFormatting\obj\Debug\ex3_BindingFormatting.g.resources
+D:\BSU\SVPP\project\WPF\WpfPart2\lab23DemoDataContext\ex3_BindingFormatting\obj\Debug\ex3_BindingFormatting.Properties.Resources.resources
+D:\BSU\SVPP\project\WPF\WpfPart2\lab23DemoDataContext\ex3_BindingFormatting\obj\Debug\ex3_BindingFormatting.csproj.GenerateResource.cache
+D:\BSU\SVPP\project\WPF\WpfPart2\lab23DemoDataContext\ex3_BindingFormatting\obj\Debug\ex3_BindingFormatting.csproj.CoreCompileInputs.cache
+D:\BSU\SVPP\project\WPF\WpfPart2\lab23DemoDataContext\ex3_BindingFormatting\obj\Debug\ex3_BindingFormatting.exe
+D:\BSU\SVPP\project\WPF\WpfPart2\lab23DemoDataContext\ex3_BindingFormatting\obj\Debug\ex3_BindingFormatting.pdb
+D:\BSU\SVPP\project\WPF\WpfPart2\lab23DemoDataContext\ex3_BindingFormatting\obj\Debug\ex3_BindingFormatting.exe.config
+D:\BSU\SVPP\project\WPF\WpfPart2\lab23DemoDataContext\ex3_BindingFormatting\obj\Debug\GeneratedInternalTypeHelper.g.cs

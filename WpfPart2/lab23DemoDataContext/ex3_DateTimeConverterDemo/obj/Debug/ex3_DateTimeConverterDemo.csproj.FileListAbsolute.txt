@@ -1,0 +1,17 @@
+D:\BSU\SVPP\project\WPF\WpfPart2\lab23DemoDataContext\ex3_DateTimeConverterDemo\obj\Debug\ex3_DateTimeConverterDemo.csproj.AssemblyReference.cache
+D:\BSU\SVPP\project\WPF\WpfPart2\lab23DemoDataContext\ex3_DateTimeConverterDemo\obj\Debug\MainWindow.g.cs
+D:\BSU\SVPP\project\WPF\WpfPart2\lab23DemoDataContext\ex3_DateTimeConverterDemo\obj\Debug\App.g.cs
+D:\BSU\SVPP\project\WPF\WpfPart2\lab23DemoDataContext\ex3_DateTimeConverterDemo\obj\Debug\GeneratedInternalTypeHelper.g.cs
+D:\BSU\SVPP\project\WPF\WpfPart2\lab23DemoDataContext\ex3_DateTimeConverterDemo\obj\Debug\ex3_DateTimeConverterDemo_MarkupCompile.cache
+D:\BSU\SVPP\project\WPF\WpfPart2\lab23DemoDataContext\ex3_DateTimeConverterDemo\obj\Debug\ex3_DateTimeConverterDemo_MarkupCompile.lref
+D:\BSU\SVPP\project\WPF\WpfPart2\lab23DemoDataContext\ex3_DateTimeConverterDemo\obj\Debug\ex3_DateTimeConverterDemo.exe
+D:\BSU\SVPP\project\WPF\WpfPart2\lab23DemoDataContext\ex3_DateTimeConverterDemo\obj\Debug\ex3_DateTimeConverterDemo.pdb
+D:\BSU\SVPP\project\WPF\WpfPart2\lab23DemoDataContext\ex3_DateTimeConverterDemo\bin\Debug\ex3_DateTimeConverterDemo.exe.config
+D:\BSU\SVPP\project\WPF\WpfPart2\lab23DemoDataContext\ex3_DateTimeConverterDemo\bin\Debug\ex3_DateTimeConverterDemo.exe
+D:\BSU\SVPP\project\WPF\WpfPart2\lab23DemoDataContext\ex3_DateTimeConverterDemo\bin\Debug\ex3_DateTimeConverterDemo.pdb
+D:\BSU\SVPP\project\WPF\WpfPart2\lab23DemoDataContext\ex3_DateTimeConverterDemo\obj\Debug\MainWindow.baml
+D:\BSU\SVPP\project\WPF\WpfPart2\lab23DemoDataContext\ex3_DateTimeConverterDemo\obj\Debug\ex3_DateTimeConverterDemo.g.resources
+D:\BSU\SVPP\project\WPF\WpfPart2\lab23DemoDataContext\ex3_DateTimeConverterDemo\obj\Debug\ex3_DateTimeConverterDemo.Properties.Resources.resources
+D:\BSU\SVPP\project\WPF\WpfPart2\lab23DemoDataContext\ex3_DateTimeConverterDemo\obj\Debug\ex3_DateTimeConverterDemo.csproj.GenerateResource.cache
+D:\BSU\SVPP\project\WPF\WpfPart2\lab23DemoDataContext\ex3_DateTimeConverterDemo\obj\Debug\ex3_DateTimeConverterDemo.csproj.CoreCompileInputs.cache
+D:\BSU\SVPP\project\WPF\WpfPart2\lab23DemoDataContext\ex3_DateTimeConverterDemo\obj\Debug\ex3_DateTimeConverterDemo.exe.config
