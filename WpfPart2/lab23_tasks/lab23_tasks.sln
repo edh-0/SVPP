@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.14.36518.9 d17.14
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "lab23_task1_converter", "lab23_task1_converter\lab23_task1_converter.csproj", "{0145F08B-71D8-4410-98F9-C2D63C69C614}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StudentCard", "..\..\WpfPart1\lab12\StudentCard\StudentCard.csproj", "{2A4860BB-56C7-4C9A-A27E-38C9C4D8F6DC}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0145F08B-71D8-4410-98F9-C2D63C69C614}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0145F08B-71D8-4410-98F9-C2D63C69C614}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0145F08B-71D8-4410-98F9-C2D63C69C614}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0145F08B-71D8-4410-98F9-C2D63C69C614}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2A4860BB-56C7-4C9A-A27E-38C9C4D8F6DC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2A4860BB-56C7-4C9A-A27E-38C9C4D8F6DC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2A4860BB-56C7-4C9A-A27E-38C9C4D8F6DC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2A4860BB-56C7-4C9A-A27E-38C9C4D8F6DC}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {AABE32EC-4337-494C-83EA-F86F1526016C}
+	EndGlobalSection
+EndGlobal

@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{2A4860BB-56C7-4C9A-A27E-38C9C4D8F6DC}</ProjectGuid>
+    <ProjectGuid>{0145F08B-71D8-4410-98F9-C2D63C69C614}</ProjectGuid>
     <OutputType>WinExe</OutputType>
-    <RootNamespace>StudentCard</RootNamespace>
-    <AssemblyName>StudentCard</AssemblyName>
+    <RootNamespace>lab23_task1_converter</RootNamespace>
+    <AssemblyName>lab23_task1_converter</AssemblyName>
     <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <ProjectTypeGuids>{60dc8134-eba5-43b8-bcc9-bb4bc16c2548};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
@@ -55,7 +55,6 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </ApplicationDefinition>
-    <Compile Include="StudentCard.cs" />
     <Page Include="MainWindow.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>

@@ -1,20 +1,111 @@
-﻿using System;
+﻿using Microsoft.Win32;
+using System;
+using System.Collections.Generic;
+using System.Globalization;
+using System.Linq;
 using System.Windows;
 using System.Windows.Controls;
+using System.Windows.Data;
 using System.Windows.Media;
-using Microsoft.Win32;
-using System.Linq;
-using System.Collections.Generic;
 
 namespace StudentCard
 {
     public partial class MainWindow : Window
     {
+        private Student _student;
+
         public MainWindow()
         {
             InitializeComponent();
-            UpdateProgress(); // Обновляем прогресс при запуске
-            cmbTheme.SelectedIndex = 0; // Выбираем стандартную тему по умолчанию
+
+            // Создаем студента
+            _student = new Student();
+
+            // Настраиваем привязки
+            SetupBindings();
+
+            UpdateProgress();
+            cmbTheme.SelectedIndex = 0;
+        }
+
+        private void SetupBindings()
+        {
+            // Текстовые поля
+            txtFirstName.SetBinding(TextBox.TextProperty,
+                new Binding("FirstName") { Source = _student, Mode = BindingMode.TwoWay });
+
+            txtLastName.SetBinding(TextBox.TextProperty,
+                new Binding("LastName") { Source = _student, Mode = BindingMode.TwoWay });
+
+            txtAge.SetBinding(TextBox.TextProperty,
+                new Binding("Age") { Source = _student, Mode = BindingMode.TwoWay });
+
+            txtEmail.SetBinding(TextBox.TextProperty,
+                new Binding("Email") { Source = _student, Mode = BindingMode.TwoWay });
+
+            txtPhone.SetBinding(TextBox.TextProperty,
+                new Binding("Phone") { Source = _student, Mode = BindingMode.TwoWay });
+
+            // ComboBox
+            cmbCourse.SetBinding(ComboBox.SelectedIndexProperty,
+                new Binding("CourseIndex") { Source = _student, Mode = BindingMode.TwoWay });
+
+            cmbSpecialization.SetBinding(ComboBox.SelectedIndexProperty,
+                new Binding("SpecializationIndex") { Source = _student, Mode = BindingMode.TwoWay });
+
+            // RadioButton - особая привязка
+            Binding maleBinding = new Binding("IsMale")
+            {
+                Source = _student,
+                Mode = BindingMode.TwoWay,
+                Converter = new BooleanToRadioButtonConverter(),
+                ConverterParameter = true
+            };
+            rbMale.SetBinding(RadioButton.IsCheckedProperty, maleBinding);
+
+            Binding femaleBinding = new Binding("IsMale")
+            {
+                Source = _student,
+                Mode = BindingMode.TwoWay,
+                Converter = new BooleanToRadioButtonConverter(),
+                ConverterParameter = false
+            };
+            rbFemale.SetBinding(RadioButton.IsCheckedProperty, femaleBinding);
+
+            // Slider
+            sliderPerformance.SetBinding(Slider.ValueProperty,
+                new Binding("Performance")
+                {
+                    Source = _student,
+                    Mode = BindingMode.TwoWay,
+                    UpdateSourceTrigger = UpdateSourceTrigger.PropertyChanged
+                });
+
+            // Привязка текста оценки к слайдеру
+            tbPerformanceValue.SetBinding(TextBlock.TextProperty,
+                new Binding("Performance")
+                {
+                    Source = _student,
+                    StringFormat = "Оценка: {0:F1}"
+                });
+        }
+
+        // Добавляем конвертер для RadioButton
+        public class BooleanToRadioButtonConverter : IValueConverter
+        {
+            public object Convert(object value, Type targetType, object parameter, CultureInfo culture)
+            {
+                bool? isMale = value as bool?;
+                bool param = bool.Parse(parameter.ToString());
+                return isMale == param;
+            }
+
+            public object ConvertBack(object value, Type targetType, object parameter, CultureInfo culture)
+            {
+                bool isChecked = (bool)value;
+                if (!isChecked) return null;
+                return bool.Parse(parameter.ToString());
+            }
         }
 
         // Обработчик смены темы
@@ -115,44 +206,45 @@ namespace StudentCard
         // Очистка всех полей
         private void btnClear_Click(object sender, RoutedEventArgs e)
         {
-            txtFirstName.Text = "";
-            txtLastName.Text = "";
-            txtAge.Text = "";
-            txtEmail.Text = "ivanov@ya.ru";
-            txtPhone.Text = "+375 (__) ___ __ __";
+            // Очищаем через объект Student
+            _student.FirstName = "";
+            _student.LastName = "";
+            _student.Age = "";
+            _student.Email = "ivanov@ya.ru";
+            _student.Phone = "+375 (__) ___ __ __";
+            _student.IsMale = null;
+            _student.CourseIndex = 0;
+            _student.SpecializationIndex = 0;
+            _student.Performance = 5;
+
             dpBirthDate.SelectedDate = null;
-            rbMale.IsChecked = false;
-            rbFemale.IsChecked = false;
-            cmbCourse.SelectedIndex = 0;
-            cmbSpecialization.SelectedIndex = 0;
-            sliderPerformance.Value = 5;
             imgPhoto.Source = null;
 
-            UpdateProgress(); // Обновляем прогресс после очистки
+            UpdateProgress();
         }
 
         // Сохранение данных
         private void btnSave_Click(object sender, RoutedEventArgs e)
         {
-            if (string.IsNullOrEmpty(txtFirstName.Text) || string.IsNullOrEmpty(txtLastName.Text))
+            if (string.IsNullOrEmpty(_student.FirstName) || string.IsNullOrEmpty(_student.LastName))
             {
                 MessageBox.Show("Заполните обязательные поля!", "Внимание",
                               MessageBoxButton.OK, MessageBoxImage.Warning);
                 return;
             }
 
-            string gender = rbMale.IsChecked == true ? "Мужской" : "Женский";
+            string gender = _student.IsMale == true ? "Мужской" : "Женский";
             string birthDate = dpBirthDate.SelectedDate?.ToString("dd.MM.yyyy") ?? "Не указана";
 
-            string message = $"Студент: {txtLastName.Text} {txtFirstName.Text}\n" +
-                           $"Возраст: {txtAge.Text}\n" +
+            string message = $"Студент: {_student.LastName} {_student.FirstName}\n" +
+                           $"Возраст: {_student.Age}\n" +
                            $"Дата рождения: {birthDate}\n" +
                            $"Пол: {gender}\n" +
-                           $"Email: {txtEmail.Text}\n" +
-                           $"Телефон: {txtPhone.Text}\n" +
+                           $"Email: {_student.Email}\n" +
+                           $"Телефон: {_student.Phone}\n" +
                            $"Курс: {(cmbCourse.SelectedItem as ComboBoxItem)?.Content}\n" +
                            $"Специализация: {(cmbSpecialization.SelectedItem as ComboBoxItem)?.Content}\n" +
-                           $"Успеваемость: {sliderPerformance.Value:F1}";
+                           $"Успеваемость: {_student.Performance:F1}";
 
             MessageBox.Show(message, "Данные сохранены",
                           MessageBoxButton.OK, MessageBoxImage.Information);

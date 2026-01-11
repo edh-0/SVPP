@@ -1,0 +1,16 @@
+D:\BSU\SVPP\project\WPF\WpfPart2\lab23_tasks\lab23_task1_converter\bin\Debug\lab23_task1_converter.exe.config
+D:\BSU\SVPP\project\WPF\WpfPart2\lab23_tasks\lab23_task1_converter\bin\Debug\lab23_task1_converter.exe
+D:\BSU\SVPP\project\WPF\WpfPart2\lab23_tasks\lab23_task1_converter\bin\Debug\lab23_task1_converter.pdb
+D:\BSU\SVPP\project\WPF\WpfPart2\lab23_tasks\lab23_task1_converter\obj\Debug\lab23_task1_converter.csproj.AssemblyReference.cache
+D:\BSU\SVPP\project\WPF\WpfPart2\lab23_tasks\lab23_task1_converter\obj\Debug\MainWindow.g.cs
+D:\BSU\SVPP\project\WPF\WpfPart2\lab23_tasks\lab23_task1_converter\obj\Debug\App.g.cs
+D:\BSU\SVPP\project\WPF\WpfPart2\lab23_tasks\lab23_task1_converter\obj\Debug\GeneratedInternalTypeHelper.g.cs
+D:\BSU\SVPP\project\WPF\WpfPart2\lab23_tasks\lab23_task1_converter\obj\Debug\lab23_task1_converter_MarkupCompile.cache
+D:\BSU\SVPP\project\WPF\WpfPart2\lab23_tasks\lab23_task1_converter\obj\Debug\lab23_task1_converter_MarkupCompile.lref
+D:\BSU\SVPP\project\WPF\WpfPart2\lab23_tasks\lab23_task1_converter\obj\Debug\MainWindow.baml
+D:\BSU\SVPP\project\WPF\WpfPart2\lab23_tasks\lab23_task1_converter\obj\Debug\lab23_task1_converter.g.resources
+D:\BSU\SVPP\project\WPF\WpfPart2\lab23_tasks\lab23_task1_converter\obj\Debug\lab23_task1_converter.Properties.Resources.resources
+D:\BSU\SVPP\project\WPF\WpfPart2\lab23_tasks\lab23_task1_converter\obj\Debug\lab23_task1_converter.csproj.GenerateResource.cache
+D:\BSU\SVPP\project\WPF\WpfPart2\lab23_tasks\lab23_task1_converter\obj\Debug\lab23_task1_converter.csproj.CoreCompileInputs.cache
+D:\BSU\SVPP\project\WPF\WpfPart2\lab23_tasks\lab23_task1_converter\obj\Debug\lab23_task1_converter.exe
+D:\BSU\SVPP\project\WPF\WpfPart2\lab23_tasks\lab23_task1_converter\obj\Debug\lab23_task1_converter.pdb
